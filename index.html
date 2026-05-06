@@ -1,0 +1,3306 @@
+<!doctype html>
+<html lang='ru'>
+<head>
+<meta charset='utf-8'/>
+<meta name='viewport' content='width=device-width, initial-scale=1'/>
+<title>Полная аналитика рынков Центральной Азии | Профессиональный творожный сыр</title>
+<style>
+:root{
+  --bg:#f2f3f5;--paper:#fff;--ink:#11151b;--muted:#68717d;--line:#d8dde5;--soft:#f7f8fa;
+  --dark:#10151d;--dark2:#1a2230;--accent:#24496f;--accent2:#5c718b;--good:#1f4b37;--warn:#6d4a16;--bad:#6b2929;
+  --shadow:0 22px 70px rgba(10,15,22,.08);--r:22px;
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,'Noto Sans',sans-serif;line-height:1.55;letter-spacing:-.01em}
+a{color:inherit;text-decoration:none}.layout{display:grid;grid-template-columns:310px minmax(0,1fr);min-height:100vh}
+aside{position:sticky;top:0;height:100vh;overflow:auto;background:var(--dark);color:#eef1f5;padding:26px 22px;border-right:1px solid rgba(255,255,255,.08)}
+.brand{border-bottom:1px solid rgba(255,255,255,.12);padding-bottom:22px;margin-bottom:18px}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.18em;color:#8e9cad;font-weight:800;margin-bottom:10px}.brand h1{font-size:22px;line-height:1.08;margin:0 0 10px;letter-spacing:-.05em}.brand p{font-size:13px;color:#bac4d1;margin:0;line-height:1.45}
+nav a{display:flex;align-items:center;gap:10px;padding:10px 11px;border-radius:12px;color:#d6dde6;font-size:13px;margin:2px 0}nav a:hover{background:rgba(255,255,255,.08);color:#fff}nav span{width:24px;height:24px;border:1px solid rgba(255,255,255,.17);border-radius:8px;display:grid;place-items:center;color:#9dadc0;font-size:11px;flex:0 0 auto}.aside-note{margin-top:20px;padding:14px;border:1px solid rgba(255,255,255,.1);border-radius:16px;background:rgba(255,255,255,.04);color:#c7d0dc;font-size:12px}
+main{padding:36px 44px 80px;max-width:1560px;width:100%}section{scroll-margin-top:24px;margin-bottom:34px}.hero{background:linear-gradient(135deg,#fff 0%,#f8fafc 58%,#e8edf4 100%);border:1px solid var(--line);border-radius:34px;padding:44px;box-shadow:var(--shadow);position:relative;overflow:hidden}.hero:after{content:'';position:absolute;right:-110px;top:-110px;width:380px;height:380px;border-radius:50%;border:1px solid rgba(36,73,111,.2)}.hero h2{font-size:52px;line-height:1.0;letter-spacing:-.065em;margin:0 0 18px;max-width:1050px}.hero p{font-size:18px;color:#3e4754;max-width:1030px;margin:0}.chips{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}.chips span{display:inline-flex;border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 12px;font-size:12px;font-weight:800;color:#2b3440}
+.grid{display:grid;gap:18px}.three{grid-template-columns:repeat(3,minmax(0,1fr))}.two{grid-template-columns:repeat(2,minmax(0,1fr))}.four{grid-template-columns:repeat(4,minmax(0,1fr))}.card,.mini-card{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);box-shadow:0 12px 34px rgba(10,15,22,.045);padding:24px}.mini-card .kpi-label{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:#6d7785;font-weight:900;margin-bottom:10px}.kpi-main{font-size:32px;line-height:1.03;font-weight:860;letter-spacing:-.055em;margin-bottom:9px}.mini-card p{color:#586270;margin:0;font-size:14px}.card h3{font-size:24px;line-height:1.12;letter-spacing:-.04em;margin:0 0 10px}.card p{margin:0;color:#56616f}
+.section-title{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin:38px 0 16px}.section-title h2{font-size:36px;line-height:1.05;letter-spacing:-.055em;margin:0}.section-title p{margin:0;color:var(--muted);max-width:680px}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:18px;background:#fff}table{border-collapse:separate;border-spacing:0;width:100%;min-width:860px;font-size:13.5px}th,td{padding:13px 15px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}th{background:#f7f9fb;color:#5e6875;font-size:11px;text-transform:uppercase;letter-spacing:.1em;font-weight:900;position:sticky;top:0;z-index:2}tr:last-child td{border-bottom:0}td:first-child{font-weight:700;color:#171c23}.rowhead{font-weight:900!important;background:#fbfcfd}
+.scorebar{display:flex;align-items:center;gap:10px;min-width:150px}.scorebar .bar{height:9px;background:#e8ebef;border:1px solid #d7dce3;border-radius:99px;overflow:hidden;flex:1}.scorebar i{display:block;height:100%;background:linear-gradient(90deg,#1b314b,#3c6d94)}.scorebar b{font-size:12px;min-width:44px;text-align:right}
+.bars{display:grid;gap:12px}.barrow{display:grid;grid-template-columns:140px minmax(160px,1fr) 92px;gap:12px;align-items:center}.barlabel{font-size:13px;font-weight:800}.bartrack{height:14px;background:#e9edf2;border-radius:999px;overflow:hidden;border:1px solid #dbe0e7}.bartrack span{display:block;height:100%;background:linear-gradient(90deg,#182638,#426f98);border-radius:999px}.barvalue{font-size:13px;font-weight:900;text-align:right;color:#1c2632}
+.verdict{border-radius:999px;padding:7px 10px;font-size:11px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--line);display:inline-flex}.v-good{background:#e8f1ec;color:var(--good);border-color:#c8dccf}.v-warn{background:#f8f0e2;color:var(--warn);border-color:#ead7b5}.v-bad{background:#f4e8e8;color:var(--bad);border-color:#e3c6c6}
+.compare-card{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:stretch}.market-card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:0 12px 34px rgba(10,15,22,.045)}.market-card h3{font-size:26px;letter-spacing:-.05em;margin:0 0 6px}.market-card p{color:#56616f;margin:0 0 14px}.market-meta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}.market-meta div{background:#f7f8fa;border:1px solid var(--line);border-radius:14px;padding:12px}.market-meta b{display:block;font-size:18px;letter-spacing:-.03em}.market-meta span{font-size:12px;color:#65707e}
+.heatmap td,.heatmap th{text-align:center}.heatmap .rowhead{text-align:left}.heat{font-size:16px;border-left:1px solid #fff}.hm1{background:#f4e8e8;color:#6b2929}.hm2{background:#f8f0e2;color:#6d4a16}.hm3{background:#eef1f5;color:#273241}.hm4{background:#e7f0ec;color:#1f4b37}.hm5{background:#d6e9df;color:#143927}
+.radar-wrap{background:#fff;border:1px solid var(--line);border-radius:22px;padding:14px;min-height:420px}.radar-wrap svg{width:100%;height:auto}.radar-label{font-size:11px;fill:#5b6573;font-weight:700;text-anchor:middle}.radar-poly{opacity:.18}.radar-line{fill:none;stroke-width:2.5}.p0{fill:#16344e}.p1{fill:#6a5731}.p2{fill:#3c5c47}.l0{stroke:#16344e}.l1{stroke:#6a5731}.l2{stroke:#3c5c47}.legend{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;font-size:12px;font-weight:800;color:#3a4350}.legend span{display:flex;align-items:center;gap:6px}.dot{width:10px;height:10px;border-radius:50%;display:inline-block}.d0{background:#16344e}.d1{background:#6a5731}.d2{background:#3c5c47}
+.country-section{background:#fff;border:1px solid var(--line);border-radius:30px;padding:30px;box-shadow:var(--shadow)}.country-title{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:22px}.country-title span{font-size:12px;text-transform:uppercase;letter-spacing:.18em;font-weight:900;color:#6c7582}.country-title h2{font-size:42px;line-height:1.0;margin:7px 0 10px;letter-spacing:-.06em}.country-title p{margin:0;color:#4d5663;max-width:860px}.country-badge{background:#111820;color:#fff;border-radius:999px;padding:10px 14px;font-size:12px;text-transform:uppercase;letter-spacing:.1em;font-weight:900;white-space:nowrap}.subsection{margin-top:26px}.subsection h3{font-size:25px;line-height:1.1;letter-spacing:-.04em;margin:0 0 12px}
+.swot{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.swot div{border:1px solid var(--line);border-radius:18px;background:#fafbfc;padding:16px}.swot h4{margin:0 0 10px;font-size:14px;text-transform:uppercase;letter-spacing:.1em}ul{margin:0;padding-left:19px}li{margin:0 0 8px;color:#46515f}.timeline{display:grid;gap:12px}.time{border:1px solid var(--line);background:#fafbfc;border-radius:16px;padding:14px}.time b{display:block;margin-bottom:4px}.time p{margin:0;color:#56616f}
+.matrix{display:grid;grid-template-columns:1fr repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:20px;overflow:hidden}.matrix div{background:#fff;padding:14px;font-size:14px}.matrix .head{background:#111820;color:#fff;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.1em}.matrix .label{font-weight:900;background:#f7f9fb}
+.callout{border-left:5px solid var(--accent);background:#e8edf4;border-radius:18px;padding:18px 20px;color:#253448}.callout b{display:block;margin-bottom:4px}.appendix{background:#fff;border:1px solid var(--line);border-radius:20px;margin:12px 0;overflow:hidden}.appendix summary{cursor:pointer;font-weight:900;padding:16px 18px;background:#f7f9fb}.appendix pre{white-space:pre-wrap;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px;line-height:1.45;margin:0;padding:18px;max-height:560px;overflow:auto;color:#222a35;background:#fff}
+.footer{border:1px solid var(--line);border-radius:22px;background:#fff;padding:22px;color:#5d6876;font-size:13px}.print-note{display:none}
+@media(max-width:1180px){.layout{grid-template-columns:1fr}aside{position:relative;height:auto}main{padding:24px}.three,.two,.four,.swot,.compare-card{grid-template-columns:1fr}.hero h2{font-size:38px}.country-title{flex-direction:column}.barrow{grid-template-columns:110px 1fr 72px}.matrix{grid-template-columns:1fr}}
+@media print{aside{display:none}.layout{display:block}main{padding:0}body{background:#fff}.hero,.country-section,.card,.mini-card{box-shadow:none;break-inside:avoid}.appendix pre{max-height:none}}
+</style>
+</head>
+<body>
+<div class='layout'>
+<aside>
+  <div class='brand'><div class='eyebrow'>Full analytical dashboard</div><h1>Профессиональный творожный сыр: Казахстан, Узбекистан, Кыргызстан</h1><p>Расширенная HTML-версия: таблицы, графики, сегменты, конкуренты, барьеры, SKU, GTM и приложения.</p></div>
+  <nav>
+    <a href='#summary'><span>01</span>Сводный вывод</a>
+    <a href='#dashboard'><span>02</span>Графики и KPI</a>
+    <a href='#compare'><span>03</span>Сравнительная карта</a>
+    <a href='#barriers'><span>04</span>Барьеры входа</a>
+    <a href='#demand'><span>05</span>Спрос и сегменты</a>
+    <a href='#competitors'><span>06</span>Конкуренты</a>
+    <a href='#kz'><span>KZ</span>Казахстан</a>
+    <a href='#uz'><span>UZ</span>Узбекистан</a>
+    <a href='#kg'><span>KG</span>Кыргызстан</a>
+    <a href='#appendix'><span>+</span>Полные тексты</a>
+  </nav>
+  <div class='aside-note'>Ключевой принцип: B2B покупает не «вкусный сыр», а стабильность, выход продукта, себестоимость порции, отсутствие брака и предсказуемость поставки.</div>
+</aside>
+<main>
+<section id='summary' class='hero'>
+  <div class='eyebrow'>Executive summary</div>
+  <h2>Нужен не один рынок, а последовательность входа: Казахстан → Узбекистан → Кыргызстан</h2>
+  <p>Казахстан имеет самый низкий барьер входа для российского производителя за счёт ЕАЭС, зрелого городского HoReCa-спроса и понятной логистики. Узбекистан даёт самый высокий масштаб и рост, но требует более жёсткой настройки: halal, узбекская маркировка, локальный дистрибьютор, проверка таможенного режима и cold chain. Кыргызстан — рынок аккуратного B2B-захвата: маленький объём, высокая чувствительность к цене, зависимость от Бишкекского спроса и сильное давление Беларуси/России.</p>
+  <div class='chips'><span>Фокус: HoReCa, не розница</span><span>Первый сегмент: суши / роллы</span><span>Второй сегмент: кондитерка</span><span>Ключевой актив: техкарты и тесты на кухне</span></div>
+</section>
+
+<section id='dashboard'>
+  <div class='section-title'><h2>Графики и KPI</h2><p>Сводная визуализация по размеру рынка, барьерам, urban demand, foodservice и импортной базе.</p></div>
+  <div class='grid four'>
+    <div class='mini-card'><div class='kpi-label'>Самый низкий барьер</div><div class='kpi-main'>Казахстан</div><p>ЕАЭС, Алматы/Астана, высокая импортозависимость и понятный B2B-спрос</p></div>
+    <div class='mini-card'><div class='kpi-label'>Самый большой рынок</div><div class='kpi-main'>Узбекистан</div><p>37,5 млн человек и растущий food service</p></div>
+    <div class='mini-card'><div class='kpi-label'>Самый рискованный по цене</div><div class='kpi-main'>Кыргызстан</div><p>Ограниченный объём + высокая price sensitivity</p></div>
+    <div class='mini-card'><div class='kpi-label'>Главный канал</div><div class='kpi-main'>HoReCa-дистрибьютор</div><p>Розница подключается только после B2B-валидации</p></div>
+  </div>
+  <div class='grid two' style='margin-top:18px'>
+    <div class='card'><h3>Интегральный потенциал рынка</h3><div class='bars'><div class='barrow'><div class='barlabel'>Казахстан</div><div class='bartrack'><span style='width:83.9%'></span></div><div class='barvalue'>8.3/10</div></div><div class='barrow'><div class='barlabel'>Узбекистан</div><div class='bartrack'><span style='width:81.0%'></span></div><div class='barvalue'>8/10</div></div><div class='barrow'><div class='barlabel'>Кыргызстан</div><div class='bartrack'><span style='width:71.5%'></span></div><div class='barvalue'>7/10</div></div></div></div>
+    <div class='card'><h3>Индекс барьера входа</h3><div class='bars'><div class='barrow'><div class='barlabel'>Казахстан</div><div class='bartrack'><span style='width:44.9%'></span></div><div class='barvalue'>4.2/10</div></div><div class='barrow'><div class='barlabel'>Узбекистан</div><div class='bartrack'><span style='width:67.7%'></span></div><div class='barvalue'>6.6/10</div></div><div class='barrow'><div class='barlabel'>Кыргызстан</div><div class='bartrack'><span style='width:75.3%'></span></div><div class='barvalue'>7.4/10</div></div></div></div>
+    <div class='card'><h3>Население, млн человек</h3><div class='bars'><div class='barrow'><div class='barlabel'>Казахстан</div><div class='bartrack'><span style='width:56.9%'></span></div><div class='barvalue'>20.48 млн</div></div><div class='barrow'><div class='barlabel'>Узбекистан</div><div class='bartrack'><span style='width:100.0%'></span></div><div class='barvalue'>37.5 млн</div></div><div class='barrow'><div class='barlabel'>Кыргызстан</div><div class='bartrack'><span style='width:23.2%'></span></div><div class='barvalue'>7.2 млн</div></div></div></div>
+    <div class='card'><h3>Урбанизация, %</h3><div class='bars'><div class='barrow'><div class='barlabel'>Казахстан</div><div class='bartrack'><span style='width:91.9%'></span></div><div class='barvalue'>64%</div></div><div class='barrow'><div class='barlabel'>Узбекистан</div><div class='bartrack'><span style='width:72.9%'></span></div><div class='barvalue'>50%</div></div><div class='barrow'><div class='barlabel'>Кыргызстан</div><div class='bartrack'><span style='width:56.8%'></span></div><div class='barvalue'>38.17%</div></div></div></div>
+    <div class='card'><h3>Foodservice, $ млрд</h3><div class='bars'><div class='barrow'><div class='barlabel'>Казахстан</div><div class='bartrack'><span style='width:100.0%'></span></div><div class='barvalue'>2.4 млрд</div></div><div class='barrow'><div class='barlabel'>Узбекистан</div><div class='bartrack'><span style='width:52.5%'></span></div><div class='barvalue'>1.2 млрд</div></div><div class='barrow'><div class='barlabel'>Кыргызстан</div><div class='bartrack'><span style='width:20.8%'></span></div><div class='barvalue'>0.4 млрд</div></div></div></div>
+    <div class='card'><h3>Fresh cheese / curd import proxy, $ млн</h3><div class='bars'><div class='barrow'><div class='barlabel'>Казахстан</div><div class='bartrack'><span style='width:100.0%'></span></div><div class='barvalue'>70.39 млн</div></div><div class='barrow'><div class='barlabel'>Узбекистан</div><div class='bartrack'><span style='width:20.0%'></span></div><div class='barvalue'>11.1 млн</div></div><div class='barrow'><div class='barlabel'>Кыргызстан</div><div class='bartrack'><span style='width:10.7%'></span></div><div class='barvalue'>4.26 млн</div></div></div></div>
+  </div>
+</section>
+
+<section id='compare'>
+  <div class='section-title'><h2>Сравнительная карта рынков</h2><p>Карта показывает не «где больше людей», а где выше вероятность успешного B2B-входа с профессиональным cream cheese.</p></div>
+  <div class='grid three'>
+  <div class='market-card'><div class='eyebrow'>KZ</div><h3>Казахстан</h3><p>Крупный городской рынок с развитой HoReCa, sushi delivery, кофейнями и высокой импортозависимостью сырной категории. Самый логичный рынок первого запуска через Алматы и Астану.</p><span class='verdict v-good'>Лучший старт</span><div class='market-meta'><div><b>8.3/10</b><span>потенциал</span></div><div><b>4.2/10</b><span>барьер</span></div><div><b>20.48 млн</b><span>население</span></div><div><b>64%</b><span>урбанизация</span></div></div></div><div class='market-card'><div class='eyebrow'>UZ</div><h3>Узбекистан</h3><p>Самый крупный потребительский рынок Центральной Азии. Высокий потенциал через Ташкент, delivery, sushi, bakery, кофейни и modern trade. Требует сильного локального дистрибьютора и halal.</p><span class='verdict v-warn'>Максимальный рост</span><div class='market-meta'><div><b>8.0/10</b><span>потенциал</span></div><div><b>6.6/10</b><span>барьер</span></div><div><b>37.5 млн</b><span>население</span></div><div><b>50%</b><span>урбанизация</span></div></div></div><div class='market-card'><div class='eyebrow'>KG</div><h3>Кыргызстан</h3><p>Компактный рынок с высокой ценовой чувствительностью. Бишкек концентрирует спрос, затем Ош и Иссык-Куль. Нужен дисциплинированный пилот, cold chain и работа через кухонные тесты.</p><span class='verdict v-bad'>Точечный B2B-захват</span><div class='market-meta'><div><b>7.0/10</b><span>потенциал</span></div><div><b>7.4/10</b><span>барьер</span></div><div><b>7.2 млн</b><span>население</span></div><div><b>38.17%</b><span>урбанизация</span></div></div></div>
+  </div>
+  <div class='grid two' style='margin-top:18px'>
+    <div class='card'><h3>Радар факторов</h3><div class='radar-wrap'><svg viewBox='0 0 480 380' role='img' aria-label='Radar'><polygon points="240.0,160.0 263.5,171.3 269.2,196.7 253.0,217.0 227.0,217.0 210.8,196.7 216.5,171.3" fill='none' stroke='#d8dde5' stroke-width='1'/><polygon points="240.0,130.0 286.9,152.6 298.5,203.4 266.0,244.1 214.0,244.1 181.5,203.4 193.1,152.6" fill='none' stroke='#d8dde5' stroke-width='1'/><polygon points="240.0,100.0 310.4,133.9 327.7,210.0 279.0,271.1 201.0,271.1 152.3,210.0 169.6,133.9" fill='none' stroke='#d8dde5' stroke-width='1'/><polygon points="240.0,70.0 333.8,115.2 357.0,216.7 292.1,298.1 187.9,298.1 123.0,216.7 146.2,115.2" fill='none' stroke='#d8dde5' stroke-width='1'/><line x1='240' y1='190' x2='240.0' y2='70.0' stroke='#d8dde5'/><text x='240.0' y='70.0' class='radar-label'>Размер</text><line x1='240' y1='190' x2='333.8' y2='115.2' stroke='#d8dde5'/><text x='333.8' y='115.2' class='radar-label'>Рост</text><line x1='240' y1='190' x2='357.0' y2='216.7' stroke='#d8dde5'/><text x='357.0' y='216.7' class='radar-label'>Импортозав.</text><line x1='240' y1='190' x2='292.1' y2='298.1' stroke='#d8dde5'/><text x='292.1' y='298.1' class='radar-label'>Простота</text><line x1='240' y1='190' x2='187.9' y2='298.1' stroke='#d8dde5'/><text x='187.9' y='298.1' class='radar-label'>Цена</text><line x1='240' y1='190' x2='123.0' y2='216.7' stroke='#d8dde5'/><text x='123.0' y='216.7' class='radar-label'>Cold chain</text><line x1='240' y1='190' x2='146.2' y2='115.2' stroke='#d8dde5'/><text x='146.2' y='115.2' class='radar-label'>Halal</text><polygon points='240.0,94.0 315.1,130.1 345.3,214.0 281.7,276.5 203.6,265.7 169.8,206.0 183.7,145.1' class='radar-poly p0'/><polyline points='240.0,94.0 315.1,130.1 345.3,214.0 281.7,276.5 203.6,265.7 169.8,206.0 183.7,145.1 240.0,94.0' class='radar-line l0'/><polygon points='240.0,70.0 324.4,122.7 321.9,208.7 271.2,254.9 198.3,276.5 146.4,211.4 155.6,122.7' class='radar-poly p1'/><polyline points='240.0,70.0 324.4,122.7 321.9,208.7 271.2,254.9 198.3,276.5 146.4,211.4 155.6,122.7 240.0,70.0' class='radar-line l1'/><polygon points='240.0,142.0 305.7,137.6 333.6,211.4 268.6,249.5 193.1,287.3 146.4,211.4 174.3,137.6' class='radar-poly p2'/><polyline points='240.0,142.0 305.7,137.6 333.6,211.4 268.6,249.5 193.1,287.3 146.4,211.4 174.3,137.6 240.0,142.0' class='radar-line l2'/></svg><div class='legend'><span><i class='dot d0'></i>Казахстан</span><span><i class='dot d1'></i>Узбекистан</span><span><i class='dot d2'></i>Кыргызстан</span></div></div></div>
+    <div class='card'><h3>Матрица решения</h3>
+      <div class='matrix'>
+        <div class='head'>Критерий</div><div class='head'>Казахстан</div><div class='head'>Узбекистан</div><div class='head'>Кыргызстан</div>
+        <div class='label'>Роль рынка</div><div>Первый запуск и доказательство модели</div><div>Масштабирование и рост</div><div>Точечный пилот и проверка дисциплины</div>
+        <div class='label'>Главный плюс</div><div>ЕАЭС + крупный городской спрос</div><div>Самый большой потребительский рынок</div><div>Компактная проверка B2B-модели</div>
+        <div class='label'>Главный минус</div><div>Привычка к Cremette / Bonfesto и давление цены</div><div>Операционная сложность: halal, маркировка, дистрибуция</div><div>Малый объём и высокая price sensitivity</div>
+        <div class='label'>Оптимальный старт</div><div>Алматы + Астана</div><div>Ташкент</div><div>Бишкек</div>
+        <div class='label'>Розница</div><div>Позже</div><div>Позже</div><div>Только после B2B-валидации</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id='barriers'>
+  <div class='section-title'><h2>Сравнительный анализ барьеров входа</h2><p>Разделяет общий барьер, операционный барьер и коммерческий барьер. Это важно: Узбекистан сложнее в настройке, Кыргызстан сложнее в экономике.</p></div>
+  <div class='callout'><b>Вывод по барьерам.</b> Самый низкий общий барьер входа — Казахстан. Самый высокий коммерческий барьер — Кыргызстан из-за малого объёма, высокой чувствительности к цене и зависимости от Бишкекского спроса. Самый высокий операционный и процедурный барьер — Узбекистан из-за не-ЕАЭС логики, halal, локальной маркировки, валютных и cold-chain рисков.</div>
+  <div class='table-wrap '><table><thead><tr><th>Страна</th><th>Общий барьер</th><th>Почему</th><th>Что делать</th></tr></thead><tbody><tr><td>Казахстан</td><td>Низко-средний</td><td>ЕАЭС, понятная маркировка RU/KZ, развитые Алматы и Астана, высокий импорт сыров</td><td>Старт через HoReCa-дистрибьютора, EAC, halal, тесты против Cremette/Bonfesto</td></tr><tr><td>Узбекистан</td><td>Средне-высокий</td><td>Большой рынок, но нужны halal, узбекская маркировка, сильный cold-chain партнёр, проверка таможенного режима</td><td>Начать с Ташкента, 3–4 SKU, 30–50 клиентов, один дистрибьютор, 90-дневная валидация</td></tr><tr><td>Кыргызстан</td><td>Высокий коммерческий</td><td>Малый рынок, сильная цена, доминирование Беларуси/России, региональная cold chain сложна</td><td>Начать с Бишкека, 25–40 клиентов, только 3 SKU, жёстко считать повторную закупку</td></tr></tbody></table></div>
+  <div class='grid three' style='margin-top:18px'>
+    <div class='card'><h3>Казахстан</h3><div class='table-wrap '><table><thead><tr><th>Барьер</th><th>Уровень</th><th>Действие</th></tr></thead><tbody><tr><td>Ценовая конкуренция</td><td>Высокий</td><td>Давать расчёт себестоимости блюда, не спорить только ценой за кг</td></tr><tr><td>Привычка к Cremette</td><td>Высокий</td><td>Делать технологические тесты на кухне клиента</td></tr><tr><td>Нестабильная cold chain</td><td>Высокий</td><td>Работать через проверенного дистрибьютора</td></tr><tr><td>Низкая известность бренда</td><td>Средний</td><td>Продавать через шефов, технологов, демонстрации</td></tr><tr><td>Требования сетей</td><td>Средний</td><td>Подготовить документы, упаковку, EAC, halal</td></tr><tr><td>Валюта / логистика</td><td>Средний</td><td>Фиксировать коридоры цены и складской запас</td></tr><tr><td>Локальные производители</td><td>Средний</td><td>Отстроиться технологичностью и стабильностью</td></tr></tbody></table></div></div>
+    <div class='card'><h3>Узбекистан</h3><div class='table-wrap '><table><thead><tr><th>Барьер</th><th>Уровень</th><th>Действие</th></tr></thead><tbody><tr><td>Цена</td><td>Высокий</td><td>Рынок чувствителен; локальные и СНГ-поставщики давят ценой</td></tr><tr><td>Холодовая цепь</td><td>Высокий</td><td>Limited cold chain и высокие логистические издержки вне городов</td></tr><tr><td>Сертификация</td><td>Средне-высокий</td><td>Санитарные/ветеринарные документы, маркировка и нормы</td></tr><tr><td>Halal</td><td>Высокий</td><td>Для доверия и широкого принятия продукта halal обязателен</td></tr><tr><td>Дистрибьюторская зависимость</td><td>Высокий</td><td>Без локального партнёра доступ к HoReCa и регионам слабый</td></tr><tr><td>Локальная маркировка</td><td>Средний</td><td>Требования к маркировке на узбекском</td></tr><tr><td>Конкуренция Hochland/Bonfesto</td><td>Средний</td><td>Категория уже знакома профессионалам</td></tr><tr><td>Валютные риски</td><td>Средний</td><td>Импортная цена зависит от курса, инфляции, логистики</td></tr><tr><td>Образовательный барьер</td><td>Средний</td><td>Нужны техкарты, обучение поваров и кондитеров</td></tr></tbody></table></div></div>
+    <div class='card'><h3>Кыргызстан</h3><div class='table-wrap '><table><thead><tr><th>Барьер</th><th>Уровень</th><th>Действие</th></tr></thead><tbody><tr><td>Цена</td><td>Очень высокий</td><td>Кыргызстан — price-sensitive рынок</td></tr><tr><td>Конкуренция Беларуси</td><td>Высокий</td><td>Беларусь доминирует в fresh cheese/curd импорте</td></tr><tr><td>Конкуренция России</td><td>Высокий</td><td>Россия сильна в processed cheese и свежих сырах</td></tr><tr><td>Холодовая цепь</td><td>Высокий</td><td>Бишкек проще, регионы сложнее</td></tr><tr><td>Сертификация ЕАЭС</td><td>Высокий</td><td>Нужны документы соответствия, EAC, техрегламенты</td></tr><tr><td>Halal</td><td>Средне-высокий</td><td>Важно для доверия и массового принятия</td></tr><tr><td>Дистрибьюторская зависимость</td><td>Высокий</td><td>Без партнёра рынок будет фрагментирован</td></tr><tr><td>Низкий объём рынка</td><td>Средний</td><td>Нельзя ждать объёма Узбекистана или Казахстана</td></tr><tr><td>Локальные производители</td><td>Средний</td><td>Могут давить ценой и свежестью</td></tr><tr><td>Непрозрачность B2B-цен</td><td>Средний</td><td>Много мелкого опта и неформальных каналов</td></tr></tbody></table></div></div>
+  </div>
+</section>
+
+<section id='demand'>
+  <div class='section-title'><h2>Спрос, сегменты и применение продукта</h2><p>Главный спрос создают не премиальные рестораны, а массовые профессиональные кухни: суши, кондитерские, bakery, кофейни и dark kitchens.</p></div>
+  <div class='card'><h3>Heatmap спроса по сегментам</h3><div class='table-wrap'><table class='heatmap'><thead><tr><th>Сегмент</th><th>Казахстан</th><th>Узбекистан</th><th>Кыргызстан</th></tr></thead><tbody><tr><td class="rowhead">Суши / роллы</td><td class="heat hm5"><b>5/5</b></td><td class="heat hm5"><b>5/5</b></td><td class="heat hm5"><b>5/5</b></td></tr><tr><td class="rowhead">Кондитерка</td><td class="heat hm4"><b>4/5</b></td><td class="heat hm4"><b>4/5</b></td><td class="heat hm4"><b>4/5</b></td></tr><tr><td class="rowhead">Кофейни</td><td class="heat hm4"><b>4/5</b></td><td class="heat hm4"><b>4/5</b></td><td class="heat hm3"><b>3.5/5</b></td></tr><tr><td class="rowhead">Bakery</td><td class="heat hm3"><b>3.5/5</b></td><td class="heat hm4"><b>4/5</b></td><td class="heat hm4"><b>4/5</b></td></tr><tr><td class="rowhead">Dark kitchen</td><td class="heat hm3"><b>3.5/5</b></td><td class="heat hm4"><b>4/5</b></td><td class="heat hm4"><b>4/5</b></td></tr><tr><td class="rowhead">Casual dining</td><td class="heat hm3"><b>3/5</b></td><td class="heat hm4"><b>4/5</b></td><td class="heat hm3"><b>3.5/5</b></td></tr><tr><td class="rowhead">Food production</td><td class="heat hm3"><b>3/5</b></td><td class="heat hm3"><b>3/5</b></td><td class="heat hm3"><b>3/5</b></td></tr><tr><td class="rowhead">Retail</td><td class="heat hm2"><b>2/5</b></td><td class="heat hm2"><b>2.5/5</b></td><td class="heat hm2"><b>2/5</b></td></tr></tbody></table></div></div>
+  <div class='grid three' style='margin-top:18px'>
+    <div class='card'><h3>Казахстан: рейтинг сегментов</h3><div class='table-wrap '><table><thead><tr><th>Сегмент</th><th>Потенциал</th><th>Причина</th></tr></thead><tbody><tr><td>Суши / роллы / delivery</td><td>Очень высокий</td><td>Массовое использование cream cheese в роллах; высокая частота заказов</td></tr><tr><td>Кондитерские / чизкейки / кремы</td><td>Высокий</td><td>Чизкейки, кремы, торты, капкейки</td></tr><tr><td>Кофейни / завтраки / brunch</td><td>Высокий</td><td>Завтраки, десерты, бейглы, сэндвичи</td></tr><tr><td>Пекарни / bakery</td><td>Средне-высокий</td><td>Растущий спрос на выпечку и десерты</td></tr><tr><td>Dark kitchen / cloud kitchen</td><td>Средне-высокий</td><td>Нужны стабильные универсальные ингредиенты</td></tr><tr><td>Food production / ready-to-eat</td><td>Средний</td><td>Объёмы, стабильность, цена, shelf life</td></tr><tr><td>Розница</td><td>Вторичный канал</td><td>Высокая конкуренция, дорогой вход</td></tr></tbody></table></div></div>
+    <div class='card'><h3>Узбекистан: рейтинг сегментов</h3><div class='table-wrap '><table><thead><tr><th>Сегмент</th><th>Потенциал</th><th>Причина</th></tr></thead><tbody><tr><td>Суши и роллы</td><td>Очень высокий</td><td>Cream cheese — стандарт категории; delivery усиливает частоту</td></tr><tr><td>Bakery</td><td>Высокий</td><td>Сильная хлебная культура + modern bakery</td></tr><tr><td>Кондитерка</td><td>Высокий</td><td>Чизкейки, кремы, рулеты, торты, капкейки</td></tr><tr><td>Кофейни</td><td>Высокий</td><td>Десерты, завтраки, сэндвичи, тосты</td></tr><tr><td>Brunch / breakfast</td><td>Средне-высокий</td><td>Формируется в Ташкенте и крупных городах</td></tr><tr><td>HoReCa casual dining</td><td>Высокий</td><td>Соусы, начинки, десерты, fusion</td></tr><tr><td>Dark kitchen / delivery</td><td>Высокий</td><td>Суши, пицца, десерты, сэндвичи</td></tr><tr><td>Ready-to-eat</td><td>Средний</td><td>Требует shelf life и упаковки</td></tr><tr><td>Food production</td><td>Средний</td><td>Нужны стабильность, цена, техподдержка</td></tr><tr><td>Industrial confectionery</td><td>Средний</td><td>Вход через тесты и техкарты</td></tr><tr><td>Catering</td><td>Средний</td><td>Завтраки, фуршеты, банкетные десерты</td></tr></tbody></table></div></div>
+    <div class='card'><h3>Кыргызстан: рейтинг сегментов</h3><div class='table-wrap '><table><thead><tr><th>Сегмент</th><th>Потенциал</th><th>Причина</th></tr></thead><tbody><tr><td>Суши и роллы</td><td>Очень высокий</td><td>Главный быстрый B2B-сегмент</td></tr><tr><td>Кондитерка</td><td>Высокий</td><td>Чизкейки, кремы, торты, капкейки</td></tr><tr><td>Bakery</td><td>Высокий</td><td>Начинки, слойки, булочки, тарталетки</td></tr><tr><td>Кофейни</td><td>Средне-высокий</td><td>Десерты, завтраки, сэндвичи</td></tr><tr><td>Breakfast menu</td><td>Средний</td><td>Растёт в Бишкеке, но пока не массовый</td></tr><tr><td>Brunch</td><td>Средний</td><td>Нишевый городской формат</td></tr><tr><td>Casual dining</td><td>Средне-высокий</td><td>Соусы, паста, салаты, fusion</td></tr><tr><td>Dark kitchen</td><td>Высокий</td><td>Суши, пицца, десерты, бургеры</td></tr><tr><td>Ready-to-eat</td><td>Средний</td><td>Сэндвичи, роллы, готовые завтраки</td></tr><tr><td>Food production</td><td>Средний</td><td>Требует стабильности, цены, shelf life</td></tr><tr><td>Industrial production</td><td>Низко-средний</td><td>Малый рынок, нужен объём и контракт</td></tr><tr><td>Catering</td><td>Средний</td><td>Банкетные десерты, завтраки, фуршеты</td></tr></tbody></table></div></div>
+  </div>
+</section>
+
+<section id='competitors'>
+  <div class='section-title'><h2>Конкурентная среда и ценовые слои</h2><p>Общий конкурентный паттерн: Hochland/Cremette как профессиональный стандарт, Bonfesto/Беларусь как ценовой и СНГ-игрок, локальные производители как угроза по цене и свежести.</p></div>
+  <div class='grid two'>
+    <div class='card'><h3>Открытые цены Казахстана</h3><div class='table-wrap '><table><thead><tr><th>Продукт</th><th>Формат</th><th>Открытая цена</th></tr></thead><tbody><tr><td>Cremette</td><td>1 кг</td><td>5 150 KZT</td></tr><tr><td>Cremette Professional</td><td>2,2 кг</td><td>10 550 KZT</td></tr><tr><td>Cremette Professional</td><td>10 кг</td><td>39 900 KZT</td></tr><tr><td>Kalleh</td><td>1 кг</td><td>3 790 KZT</td></tr><tr><td>Савушкин</td><td>1 кг</td><td>3 895 KZT</td></tr><tr><td>Hochland retail</td><td>140 г</td><td>1 500 KZT</td></tr></tbody></table></div></div>
+    <div class='card'><h3>Индикативные цены Кыргызстана</h3><div class='table-wrap '><table><thead><tr><th>Продукт</th><th>Формат</th><th>Цена</th></tr></thead><tbody><tr><td>Bonfesto Кремчиз</td><td>140 г</td><td>129–169 KGS</td></tr><tr><td>Bonfesto</td><td>400 г</td><td>299–453 KGS</td></tr><tr><td>Violette</td><td>140 г</td><td>109–129 KGS</td></tr><tr><td>Hochland творожный</td><td>220 г</td><td>276 KGS</td></tr><tr><td>Hochland Professional Cremette</td><td>2,2 кг</td><td>5 350 KGS, индикативно</td></tr></tbody></table></div></div>
+  </div>
+  <div class='grid three' style='margin-top:18px'>
+    <div class='card'><h3>Казахстан</h3><div class='table-wrap '><table><thead><tr><th>Бренд</th><th>Страна</th><th>Сегмент</th><th>Каналы</th><th>Сильные</th><th>Слабые</th><th>Угроза</th></tr></thead><tbody><tr><td>Hochland / Cremette</td><td>Россия / международный</td><td>Средний / professional</td><td>HoReCa, кондитерские, розница</td><td>Узнаваемость, проф. форматы, доверие кухонь</td><td>Цена может быть выше локальных альтернатив</td><td>Очень высокая</td></tr><tr><td>Bonfesto</td><td>Беларусь</td><td>Средний</td><td>Розница, HoReCa</td><td>Сильная цена, знакомость на постсоветском рынке</td><td>Не всегда premium professional</td><td>Высокая</td></tr><tr><td>President</td><td>Франция / Lactalis</td><td>Средний+</td><td>Розница</td><td>Международный бренд, доверие</td><td>Меньше фокуса на профессиональный B2B</td><td>Средняя</td></tr><tr><td>Almette</td><td>Hochland</td><td>Средний+</td><td>Розница</td><td>Сильный потребительский бренд</td><td>Не основной проф. продукт для суши/цехов</td><td>Средняя</td></tr><tr><td>Violette / Karat</td><td>Россия</td><td>Средний</td><td>Розница, возможно HoReCa</td><td>Широкая вкусовая линейка</td><td>Ниже технологический авторитет, чем Cremette</td><td>Средняя</td></tr><tr><td>Natura / Nordic Foods</td><td>Казахстан / региональная дистрибуция</td><td>Средний / professional</td><td>Дистрибуция, retail, HoReCa</td><td>Локальное присутствие, проф. дистрибуция</td><td>Нужно проверять силу именно в cream cheese</td><td>Средняя</td></tr><tr><td>Adal</td><td>Казахстан</td><td>Локальный</td><td>Розница, локальная молочка</td><td>Локальное происхождение, доверие к молочной категории</td><td>Возможна слабее технологичность в проф. применении</td><td>Средняя</td></tr><tr><td>Kalleh</td><td>Иран</td><td>Цена / средний</td><td>Спец. поставщики</td><td>Цена ниже Cremette в отдельных предложениях</td><td>Брендовая узнаваемость ниже</td><td>Средняя</td></tr><tr><td>Савушкин</td><td>Беларусь</td><td>Цена / средний</td><td>Спец. поставщики</td><td>Цена, постсоветская узнаваемость</td><td>Не всегда premium</td><td>Средняя</td></tr></tbody></table></div></div>
+    <div class='card'><h3>Узбекистан</h3><div class='table-wrap '><table><thead><tr><th>Бренд</th><th>Страна</th><th>Сегмент</th><th>Каналы</th><th>Сильные</th><th>Слабые</th><th>Угроза</th></tr></thead><tbody><tr><td>Hochland Cremette Professional</td><td>Германия / международный</td><td>Средний+ / премиум</td><td>HoReCa, B2B-дистрибьюторы</td><td>Профессиональная репутация, стабильность, доверие поваров</td><td>Цена, импортная зависимость</td><td>Высокая</td></tr><tr><td>Bonfesto</td><td>Беларусь</td><td>Средний</td><td>Розница, HoReCa, импортные лавки, дистрибьюторы</td><td>Цена/качество, понятный СНГ-профиль, универсальность</td><td>Меньше premium-ореола, чем у Hochland</td><td>Высокая</td></tr><tr><td>Don Milko</td><td>Узбекистан</td><td>Средний / эконом</td><td>Локальная розница, B2B, wholesale</td><td>Локальное происхождение, цена, доступность</td><td>Требует проверки стабильности для HoReCa</td><td>Средняя</td></tr><tr><td>Локальные производители cream cheese</td><td>Узбекистан</td><td>Эконом / средний</td><td>Локальный wholesale, рынки, HoReCa</td><td>Цена, свежесть, быстрая поставка</td><td>Нестабильность качества, слабый бренд, ограниченная техподдержка</td><td>Средняя</td></tr><tr><td>Российские бренды cream cheese</td><td>Россия</td><td>Средний</td><td>Дистрибьюторы, HoReCa, розница</td><td>Логистика, язык, привычный вкус, цена</td><td>Валютные/политические риски, конкуренция внутри СНГ</td><td>Высокая</td></tr><tr><td>Private label сетей</td><td>Узбекистан / импорт</td><td>Эконом</td><td>Modern trade</td><td>Цена, контроль полки</td><td>Слабая B2B-релевантность</td><td>Средняя</td></tr><tr><td>Премиальные импортные бренды</td><td>ЕС / Турция / Финляндия</td><td>Премиум</td><td>HoReCa, retail, specialty</td><td>Качество, имидж</td><td>Цена, логистика</td><td>Низко-средняя</td></tr></tbody></table></div></div>
+    <div class='card'><h3>Кыргызстан</h3><div class='table-wrap '><table><thead><tr><th>Бренд</th><th>Страна</th><th>Сегмент</th><th>Каналы</th><th>Сильные</th><th>Слабые</th><th>Угроза</th></tr></thead><tbody><tr><td>Hochland / Cremette Professional</td><td>Германия / РФ / международный</td><td>Средний+ / премиум</td><td>HoReCa, мелкий опт, кондитеры</td><td>Репутация, стабильность, узнаваемость</td><td>Цена, импортная зависимость</td><td>Высокая</td></tr><tr><td>Bonfesto</td><td>Беларусь</td><td>Средний</td><td>Розница, HoReCa, дистрибьюторы</td><td>Цена/качество, широкая представленность, СНГ-дистрибуция</td><td>Не всегда professional premium</td><td>Высокая</td></tr><tr><td>Violette</td><td>Россия</td><td>Средний</td><td>Розница</td><td>Доступная цена, вкусовые варианты</td><td>Слабее как B2B professional SKU</td><td>Средняя</td></tr><tr><td>Kalleh Labneh</td><td>Иран / импорт</td><td>Средний</td><td>Розница</td><td>Близость к soft cheese/labneh, понятный продукт</td><td>Не главный стандарт для роллов и кондитерки</td><td>Средняя</td></tr><tr><td>President</td><td>Франция / международный</td><td>Средний+</td><td>Розница</td><td>Узнаваемость, доверие</td><td>Больше retail, меньше professional cream cheese</td><td>Средняя</td></tr><tr><td>Savushkin</td><td>Беларусь</td><td>Средний</td><td>Розница / опт</td><td>Цена, СНГ-логистика, молочная репутация</td><td>Требует проверки B2B-линейки</td><td>Средняя</td></tr><tr><td>Belaya Reka</td><td>Кыргызстан</td><td>Средний</td><td>Розница, локальный B2B, экспорт</td><td>Локальность, доверие, молочная база</td><td>Не очевидна специализация на professional cream cheese</td><td>Средняя</td></tr><tr><td>Sut Bulak / Dairy Spring</td><td>Кыргызстан</td><td>Средний+</td><td>Розница, B2B, экспорт</td><td>Сырная экспертиза, локальное производство</td><td>Больше hard/semi-hard cheese, чем cream cheese</td><td>Средняя</td></tr><tr><td>Частные локальные производители</td><td>Кыргызстан</td><td>Эконом</td><td>Рынки, мелкий опт, кафе</td><td>Цена, свежесть</td><td>Нестабильность, слабая стандартизация</td><td>Средняя</td></tr><tr><td>Private label retail</td><td>Кыргызстан / импорт</td><td>Эконом</td><td>Modern trade</td><td>Цена, полка</td><td>Не B2B-решение</td><td>Низко-средняя</td></tr></tbody></table></div></div>
+  </div>
+</section>
+
+
+    <section id='kz' class='country-section'>
+      <div class='country-title'><div><span>KZ</span><h2>Казахстан</h2><p>Крупный городской рынок с развитой HoReCa, sushi delivery, кофейнями и высокой импортозависимостью сырной категории. Самый логичный рынок первого запуска через Алматы и Астану.</p></div><div class='country-badge'>Лучший старт</div></div>
+      <div class='grid three'>
+        <div class='mini-card'><div class='kpi-label'>Потенциал</div><div class='kpi-main'>Высокий / стратегический</div><p>Оценка из странового исследования</p></div>
+        <div class='mini-card'><div class='kpi-label'>Первый рынок</div><div class='kpi-main'>Алматы + Астана</div><p>География старта пилотных продаж</p></div>
+        <div class='mini-card'><div class='kpi-label'>Стартовый SKU</div><div class='kpi-main'>2 кг / 10 кг Professional</div><p>Главный формат для B2B-валидации</p></div>
+      </div>
+      <div class='subsection'><h3>Макроэкономика, HoReCa и импортная база</h3><div class='table-wrap '><table><thead><tr><th>Показатель</th><th>Значение</th></tr></thead><tbody><tr><td>Население</td><td>20,48 млн в 2025</td></tr><tr><td>Урбанизация</td><td>около 63–64%; 13,0 млн городских жителей</td></tr><tr><td>Foodservice</td><td>около $2,4 млрд в 2024</td></tr><tr><td>Общепит</td><td>15 826 заведений в 2023; услуги 1,1 трлн тенге, +11,9% г/г</td></tr><tr><td>2025 структура</td><td>2 358 ресторанов, 5 202 кафе, 5 618 столовых</td></tr><tr><td>E-commerce</td><td>3,4 трлн тенге в 2024; 15,3% розницы</td></tr><tr><td>Молочный импорт</td><td>около $521 млн; hard &amp; fresh cheese — $152 млн / 39 тыс. т</td></tr><tr><td>HS 040610</td><td>2024: $70,39 млн / 20,72 тыс. т</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Country scorecard</h3><div class='table-wrap '><table><thead><tr><th>Параметр</th><th>Оценка</th><th>Комментарий</th></tr></thead><tbody><tr><td>Размер HoReCa</td><td>4/5</td><td>Рынок уже достаточно крупный для B2B-дистрибуции</td></tr><tr><td>Рост food service</td><td>4/5</td><td>Рост заведений и доставки поддерживает спрос</td></tr><tr><td>Популярность cream cheese</td><td>3,5/5</td><td>Продукт не традиционный, но встроен через суши, десерты, кофейни</td></tr><tr><td>Японская / корейская кухня</td><td>4/5</td><td>Сильный драйвер, особенно delivery</td></tr><tr><td>Bakery / dessert culture</td><td>4/5</td><td>Сильная база для чизкейков, кремов, тортов, выпечки</td></tr><tr><td>Конкуренция</td><td>3/5</td><td>Конкуренты есть, но рынок не закрыт полностью</td></tr><tr><td>Простота входа</td><td>4/5 для ЕАЭС</td><td>Для российского производителя вход проще за счёт ЕАЭС</td></tr><tr><td>Premium-сегмент</td><td>3,5/5</td><td>Есть в Алматы и Астане, но рынок чувствителен к цене</td></tr><tr><td>Mass-market</td><td>4/5</td><td>Большой потенциал через суши и доставку</td></tr><tr><td>Импортозависимость</td><td>4,5/5</td><td>Сырная категория заметно зависит от импорта</td></tr><tr><td>Маржинальность</td><td>3/5</td><td>Давление цены высокое, особенно в суши</td></tr><tr><td>Итоговый потенциал</td><td>Высокий / стратегический</td><td>Вход оправдан через B2B-пилот</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Сегменты спроса</h3><div class='table-wrap '><table><thead><tr><th>Сегмент</th><th>Потенциал</th><th>Логика спроса</th></tr></thead><tbody><tr><td>Суши / роллы / delivery</td><td>Очень высокий</td><td>Массовое использование cream cheese в роллах; высокая частота заказов</td></tr><tr><td>Кондитерские / чизкейки / кремы</td><td>Высокий</td><td>Чизкейки, кремы, торты, капкейки</td></tr><tr><td>Кофейни / завтраки / brunch</td><td>Высокий</td><td>Завтраки, десерты, бейглы, сэндвичи</td></tr><tr><td>Пекарни / bakery</td><td>Средне-высокий</td><td>Растущий спрос на выпечку и десерты</td></tr><tr><td>Dark kitchen / cloud kitchen</td><td>Средне-высокий</td><td>Нужны стабильные универсальные ингредиенты</td></tr><tr><td>Food production / ready-to-eat</td><td>Средний</td><td>Объёмы, стабильность, цена, shelf life</td></tr><tr><td>Розница</td><td>Вторичный канал</td><td>Высокая конкуренция, дорогой вход</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Культурная и продуктовая совместимость</h3><div class='table-wrap '><table><thead><tr><th>Основа</th><th>Как работает для cream cheese</th></tr></thead><tbody><tr><td>Молочная база</td><td>Молоко, кисломолочные продукты, сметана, кефир, айран, курт, каймак, творог</td></tr><tr><td>Суши / роллы</td><td>Начинка роллов, аналог «Филадельфии», стабильная массовая потребность</td></tr><tr><td>Кондитерка</td><td>Чизкейки, кремы, капкейки, торты, муссы</td></tr><tr><td>Кофейни</td><td>Сэндвичи, бейглы, сырники с кремом, десерты</td></tr><tr><td>Bakery</td><td>Слойки, начинки, открытые пироги, десертная выпечка</td></tr><tr><td>Brunch</td><td>Завтраки, тосты, намазки, лосось + cream cheese</td></tr><tr><td>Ready-to-eat</td><td>Сэндвичи, роллы, ланч-боксы, соусы</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Востребованные свойства продукта</h3><div class='table-wrap '><table><thead><tr><th>Сегмент</th><th>Свойство</th><th>Важность</th></tr></thead><tbody><tr><td>Суши</td><td>Плотность</td><td>Критично</td></tr><tr><td>Суши</td><td>Пластичность</td><td>Критично</td></tr><tr><td>Суши</td><td>Нейтральный сливочный вкус</td><td>Критично</td></tr><tr><td>Суши</td><td>Отсутствие водоотделения</td><td>Критично</td></tr><tr><td>Суши</td><td>Цена за кг</td><td>Критично</td></tr><tr><td>Суши</td><td>Упаковка 2–10 кг</td><td>Критично</td></tr><tr><td>Суши</td><td>Shelf life</td><td>Высокая</td></tr><tr><td>Суши</td><td>Halal</td><td>Средне-высокая</td></tr><tr><td>Кондитерка</td><td>Взбиваемость</td><td>Критично</td></tr><tr><td>Кондитерка</td><td>Стабильность крема</td><td>Критично</td></tr><tr><td>Кондитерка</td><td>Отсутствие крупинок</td><td>Критично</td></tr><tr><td>Кондитерка</td><td>Поведение в чизкейке</td><td>Критично</td></tr><tr><td>Кондитерка</td><td>Жирность</td><td>Высокая</td></tr><tr><td>Кондитерка</td><td>Натуральный состав</td><td>Высокая</td></tr><tr><td>Кондитерка</td><td>Цена</td><td>Высокая</td></tr><tr><td>Кофейни / brunch</td><td>Вкус</td><td>Критично</td></tr><tr><td>Кофейни / brunch</td><td>Удобство нанесения</td><td>Высокая</td></tr><tr><td>Кофейни / brunch</td><td>Упаковка 1–2 кг</td><td>Высокая</td></tr><tr><td>Кофейни / brunch</td><td>Clean label</td><td>Средне-высокая</td></tr><tr><td>Кофейни / brunch</td><td>Halal</td><td>Средняя</td></tr><tr><td>Кофейни / brunch</td><td>Цена</td><td>Высокая</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Конкурентная среда</h3><div class='table-wrap '><table><thead><tr><th>Бренд / группа</th><th>Страна</th><th>Ценовой сегмент</th><th>Каналы</th><th>Сильные стороны</th><th>Слабые стороны</th><th>Угроза</th></tr></thead><tbody><tr><td>Hochland / Cremette</td><td>Россия / международный</td><td>Средний / professional</td><td>HoReCa, кондитерские, розница</td><td>Узнаваемость, проф. форматы, доверие кухонь</td><td>Цена может быть выше локальных альтернатив</td><td>Очень высокая</td></tr><tr><td>Bonfesto</td><td>Беларусь</td><td>Средний</td><td>Розница, HoReCa</td><td>Сильная цена, знакомость на постсоветском рынке</td><td>Не всегда premium professional</td><td>Высокая</td></tr><tr><td>President</td><td>Франция / Lactalis</td><td>Средний+</td><td>Розница</td><td>Международный бренд, доверие</td><td>Меньше фокуса на профессиональный B2B</td><td>Средняя</td></tr><tr><td>Almette</td><td>Hochland</td><td>Средний+</td><td>Розница</td><td>Сильный потребительский бренд</td><td>Не основной проф. продукт для суши/цехов</td><td>Средняя</td></tr><tr><td>Violette / Karat</td><td>Россия</td><td>Средний</td><td>Розница, возможно HoReCa</td><td>Широкая вкусовая линейка</td><td>Ниже технологический авторитет, чем Cremette</td><td>Средняя</td></tr><tr><td>Natura / Nordic Foods</td><td>Казахстан / региональная дистрибуция</td><td>Средний / professional</td><td>Дистрибуция, retail, HoReCa</td><td>Локальное присутствие, проф. дистрибуция</td><td>Нужно проверять силу именно в cream cheese</td><td>Средняя</td></tr><tr><td>Adal</td><td>Казахстан</td><td>Локальный</td><td>Розница, локальная молочка</td><td>Локальное происхождение, доверие к молочной категории</td><td>Возможна слабее технологичность в проф. применении</td><td>Средняя</td></tr><tr><td>Kalleh</td><td>Иран</td><td>Цена / средний</td><td>Спец. поставщики</td><td>Цена ниже Cremette в отдельных предложениях</td><td>Брендовая узнаваемость ниже</td><td>Средняя</td></tr><tr><td>Савушкин</td><td>Беларусь</td><td>Цена / средний</td><td>Спец. поставщики</td><td>Цена, постсоветская узнаваемость</td><td>Не всегда premium</td><td>Средняя</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Ценовая логика</h3><div class='table-wrap '><table><thead><tr><th>Слой / стратегия</th><th>Тип цены или товара</th><th>Кому продавать</th></tr></thead><tbody><tr><td>Ниже Cremette</td><td>Агрессивная</td><td>Суши, dark kitchen, delivery</td></tr><tr><td>На уровне Cremette</td><td>Только при доказанной стабильности</td><td>Кондитерские и сети</td></tr><tr><td>Выше Cremette</td><td>Только premium / clean label / special SKU</td><td>Премиальные кафе, кондитерские, отели</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Барьеры входа</h3><div class='table-wrap '><table><thead><tr><th>Барьер</th><th>Уровень</th><th>Что означает / что делать</th></tr></thead><tbody><tr><td>Ценовая конкуренция</td><td>Высокий</td><td>Давать расчёт себестоимости блюда, не спорить только ценой за кг</td></tr><tr><td>Привычка к Cremette</td><td>Высокий</td><td>Делать технологические тесты на кухне клиента</td></tr><tr><td>Нестабильная cold chain</td><td>Высокий</td><td>Работать через проверенного дистрибьютора</td></tr><tr><td>Низкая известность бренда</td><td>Средний</td><td>Продавать через шефов, технологов, демонстрации</td></tr><tr><td>Требования сетей</td><td>Средний</td><td>Подготовить документы, упаковку, EAC, halal</td></tr><tr><td>Валюта / логистика</td><td>Средний</td><td>Фиксировать коридоры цены и складской запас</td></tr><tr><td>Локальные производители</td><td>Средний</td><td>Отстроиться технологичностью и стабильностью</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>SWOT</h3><div class='swot'><div><h4>Strengths</h4><ul><li>Профессиональный продукт можно продавать через технологию, а не только бренд</li><li>Российское происхождение удобно для ЕАЭС</li><li>Сегменты суши, кондитерки и кофеен уже сформированы</li><li>Можно быстро запускать пилоты через Алматы и Астану</li><li>Есть импортозависимость по сырам</li></ul></div><div><h4>Weaknesses</h4><ul><li>Новый бренд должен преодолеть привычку кухонь к Cremette / Bonfesto</li><li>Цена должна быть очень точной</li><li>Казахстанский рынок чувствителен к цене</li><li>Нужна холодовая цепь и стабильный дистрибьютор</li><li>Без halal и EAC вход в часть каналов слабее</li></ul></div><div><h4>Opportunities</h4><ul><li>Замещение дорогих импортных брендов</li><li>Рост delivery, sushi, bakery, кофеен</li><li>Private label для сетей и foodservice</li><li>Профессиональные SKU 2 кг / 10 кг</li><li>Обучение шефов и технологов</li></ul></div><div><h4>Threats</h4><ul><li>Ответная ценовая активность конкурентов</li><li>Давление локальных и белорусских брендов</li><li>Валютные колебания</li><li>Логистические сбои и нарушение cold chain</li><li>Закупщики будут сравнивать только цену за кг без расчёта выхода</li></ul></div></div></div>
+      <div class='subsection'><h3>Рекомендуемые SKU</h3><div class='table-wrap '><table><thead><tr><th>SKU</th><th>Упаковка</th><th>Сегмент</th><th>Роль / приоритет</th></tr></thead><tbody><tr><td>Professional cream cheese 65–70%</td><td>2 кг</td><td>Суши, кафе, малые кондитерские</td><td>Очень высокий</td></tr><tr><td>Professional cream cheese 65–70%</td><td>10 кг</td><td>Сети суши, dark kitchen, цеха</td><td>Очень высокий</td></tr><tr><td>Pastry / whipping cream cheese</td><td>2 кг</td><td>Чизкейки, кремы, торты</td><td>Высокий</td></tr><tr><td>Stable / dense для роллов</td><td>10 кг</td><td>Суши и delivery</td><td>Высокий</td></tr><tr><td>Clean label cream cheese</td><td>1–2 кг</td><td>Premium bakery / кофейни</td><td>Средне-высокий</td></tr><tr><td>Retail / small B2B</td><td>400 г / 1 кг</td><td>Малые кафе и пробные закупки</td><td>Средний</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Локализация продукта</h3><div class='table-wrap '><table><thead><tr><th>Направление</th><th>Решение</th></tr></thead><tbody><tr><td>Язык</td><td>Казахский + русский на упаковке</td></tr><tr><td>Сертификация</td><td>EAC обязательно при применимости</td></tr><tr><td>Halal</td><td>Желательно получить сразу</td></tr><tr><td>Упаковка</td><td>2 кг и 10 кг как основные B2B-форматы</td></tr><tr><td>Вкус</td><td>Базовый сливочный, без яркой кислотности</td></tr><tr><td>Текстура</td><td>Отдельная версия для суши и версия для кондитерки</td></tr><tr><td>Коммуникация</td><td>Не «творожный сыр для дома», а «профессиональный cream cheese для кухни»</td></tr><tr><td>Дистрибуция</td><td>Холодовая цепь, Алматы как главный складской узел</td></tr><tr><td>Документы</td><td>Спецификация, декларация, лабораторные показатели, shelf life, хранение после вскрытия</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Пилотный запуск</h3><div class='grid two'><div><div class='table-wrap '><table><thead><tr><th>Метрика</th><th>Цель</th></tr></thead><tbody><tr><td>Цель</td><td>Доказать замену текущего продукта</td></tr><tr><td>Срок</td><td>90 дней</td></tr><tr><td>Главный канал</td><td>HoReCa-дистрибьютор + прямые продажи сетям</td></tr><tr><td>Основной аргумент</td><td>Себестоимость порции и стабильность продукта</td></tr></tbody></table></div></div><div class='timeline'><div class="time"><b>Дни 1–15</b><p>Документы, дистрибьютор, SKU, список клиентов</p></div><div class="time"><b>Дни 16–45</b><p>Кухонные тесты и сравнения с Cremette / Bonfesto / Kalleh</p></div><div class="time"><b>Дни 46–75</b><p>Перевод тестовых клиентов в регулярную закупку</p></div><div class="time"><b>Дни 76–90</b><p>Фиксация цены, масштабирование на второй эшелон</p></div></div></div><div class='chips'><span>Алматы</span><span>Астана</span><span>Шымкент — вторым эшелоном</span><span>Караганда — вторым эшелоном</span></div></div>
+    </section>
+    
+    <section id='uz' class='country-section'>
+      <div class='country-title'><div><span>UZ</span><h2>Узбекистан</h2><p>Самый крупный потребительский рынок Центральной Азии. Высокий потенциал через Ташкент, delivery, sushi, bakery, кофейни и modern trade. Требует сильного локального дистрибьютора и halal.</p></div><div class='country-badge'>Максимальный рост</div></div>
+      <div class='grid three'>
+        <div class='mini-card'><div class='kpi-label'>Потенциал</div><div class='kpi-main'>Высокий / стратегический</div><p>Оценка из странового исследования</p></div>
+        <div class='mini-card'><div class='kpi-label'>Первый рынок</div><div class='kpi-main'>Ташкент</div><p>География старта пилотных продаж</p></div>
+        <div class='mini-card'><div class='kpi-label'>Стартовый SKU</div><div class='kpi-main'>2–2,5 кг Professional</div><p>Главный формат для B2B-валидации</p></div>
+      </div>
+      <div class='subsection'><h3>Макроэкономика, HoReCa и импортная база</h3><div class='table-wrap '><table><thead><tr><th>Показатель</th><th>Значение</th></tr></thead><tbody><tr><td>Население</td><td>36,36 млн в 2024; USDA 2025 — 37,5 млн</td></tr><tr><td>Медианный возраст</td><td>около 27 лет</td></tr><tr><td>Урбанизация</td><td>более 50% населения в городах</td></tr><tr><td>Food retail</td><td>USDA: $12,5 млрд</td></tr><tr><td>Food service / HRI</td><td>USDA: $1,2 млрд</td></tr><tr><td>Food processing</td><td>USDA: $6,8 млрд</td></tr><tr><td>Organized retail</td><td>около 18% продаж</td></tr><tr><td>Импорт 0406</td><td>2023: $36 млн, +39% к 2022</td></tr><tr><td>Fresh cheese/curd 040610</td><td>2023: $11,1 млн, около 30% группы</td></tr><tr><td>OEC cheese import</td><td>2024: $43,6 млн</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Country scorecard</h3><div class='table-wrap '><table><thead><tr><th>Параметр</th><th>Оценка</th><th>Комментарий</th></tr></thead><tbody><tr><td>Общий потенциал рынка</td><td>8/10</td><td>Растущий городской рынок, молодое население, доставка и food service</td></tr><tr><td>Потенциал HoReCa</td><td>8/10</td><td>Food service оценивается в $1,2 млрд</td></tr><tr><td>Потенциал sushi/rolls</td><td>8/10</td><td>Суши-сети и delivery представлены в крупных городах</td></tr><tr><td>Потенциал bakery/confectionery</td><td>8/10</td><td>Сильная выпечка, modern bakery и кофейни</td></tr><tr><td>Потенциал кофеен/brunch</td><td>7/10</td><td>Кофейная культура развивается в городах</td></tr><tr><td>Зависимость от импорта</td><td>7/10</td><td>Импорт сыров $36 млн в 2023, рост +39%</td></tr><tr><td>Локальное производство</td><td>6/10</td><td>Есть локальные производители, сегмент фрагментирован</td></tr><tr><td>Ценовая чувствительность</td><td>8/10</td><td>Рынок остаётся price-sensitive</td></tr><tr><td>Барьеры входа</td><td>6/10</td><td>Сертификация, cold chain, дистрибуция, halal, маркировка</td></tr><tr><td>Горизонт роста 3–5 лет</td><td>Высокий</td><td>Delivery, международные кухни, кофейни, bakery, modern retail</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Сегменты спроса</h3><div class='table-wrap '><table><thead><tr><th>Сегмент</th><th>Потенциал</th><th>Логика спроса</th></tr></thead><tbody><tr><td>Суши и роллы</td><td>Очень высокий</td><td>Cream cheese — стандарт категории; delivery усиливает частоту</td></tr><tr><td>Bakery</td><td>Высокий</td><td>Сильная хлебная культура + modern bakery</td></tr><tr><td>Кондитерка</td><td>Высокий</td><td>Чизкейки, кремы, рулеты, торты, капкейки</td></tr><tr><td>Кофейни</td><td>Высокий</td><td>Десерты, завтраки, сэндвичи, тосты</td></tr><tr><td>Brunch / breakfast</td><td>Средне-высокий</td><td>Формируется в Ташкенте и крупных городах</td></tr><tr><td>HoReCa casual dining</td><td>Высокий</td><td>Соусы, начинки, десерты, fusion</td></tr><tr><td>Dark kitchen / delivery</td><td>Высокий</td><td>Суши, пицца, десерты, сэндвичи</td></tr><tr><td>Ready-to-eat</td><td>Средний</td><td>Требует shelf life и упаковки</td></tr><tr><td>Food production</td><td>Средний</td><td>Нужны стабильность, цена, техподдержка</td></tr><tr><td>Industrial confectionery</td><td>Средний</td><td>Вход через тесты и техкарты</td></tr><tr><td>Catering</td><td>Средний</td><td>Завтраки, фуршеты, банкетные десерты</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Культурная и продуктовая совместимость</h3><div class='table-wrap '><table><thead><tr><th>Основа</th><th>Как работает для cream cheese</th></tr></thead><tbody><tr><td>Молочная база</td><td>Катык, сузьма, курт, каймак, айран; густые сливочные и ферментированные текстуры понятны потребителю</td></tr><tr><td>Хлебная культура</td><td>Лепёшки, самса, слоёная выпечка, тандыр, блюда из теста</td></tr><tr><td>Суши / роллы</td><td>Yaponamama и другие игроки показывают, что сегмент вышел за рамки Ташкента</td></tr><tr><td>Корейская кухня</td><td>Культурно-историческая база через корё-сарам; cream cheese применим во fusion</td></tr><tr><td>Европейская / американская кухня</td><td>Пицца, паста, бранчи, сэндвичи, чизкейки, кофейни и bakery</td></tr><tr><td>Fusion local</td><td>Лепёшка + cream cheese + зелень; самса с сырной начинкой; соус к мантам</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Востребованные свойства продукта</h3><div class='table-wrap '><table><thead><tr><th>Сегмент</th><th>Свойство</th><th>Важность</th></tr></thead><tbody><tr><td>Общее</td><td>Цена</td><td>Очень высокая</td></tr><tr><td>Общее</td><td>Стабильность</td><td>Очень высокая</td></tr><tr><td>Общее</td><td>Плотность</td><td>Очень высокая</td></tr><tr><td>Общее</td><td>Текстура</td><td>Очень высокая</td></tr><tr><td>Общее</td><td>Взбиваемость</td><td>Высокая</td></tr><tr><td>Общее</td><td>Пластичность</td><td>Высокая</td></tr><tr><td>Общее</td><td>Термостойкость</td><td>Средне-высокая</td></tr><tr><td>Общее</td><td>Срок хранения</td><td>Очень высокий</td></tr><tr><td>Общее</td><td>Упаковка 2–2,5 кг</td><td>Очень высокая</td></tr><tr><td>Общее</td><td>Упаковка 5–10 кг</td><td>Средне-высокая</td></tr><tr><td>Общее</td><td>Halal</td><td>Очень высокая</td></tr><tr><td>Общее</td><td>Clean label</td><td>Средняя</td></tr><tr><td>Общее</td><td>Локальное происхождение</td><td>Среднее</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Конкурентная среда</h3><div class='table-wrap '><table><thead><tr><th>Бренд / группа</th><th>Страна</th><th>Ценовой сегмент</th><th>Каналы</th><th>Сильные стороны</th><th>Слабые стороны</th><th>Угроза</th></tr></thead><tbody><tr><td>Hochland Cremette Professional</td><td>Германия / международный</td><td>Средний+ / премиум</td><td>HoReCa, B2B-дистрибьюторы</td><td>Профессиональная репутация, стабильность, доверие поваров</td><td>Цена, импортная зависимость</td><td>Высокая</td></tr><tr><td>Bonfesto</td><td>Беларусь</td><td>Средний</td><td>Розница, HoReCa, импортные лавки, дистрибьюторы</td><td>Цена/качество, понятный СНГ-профиль, универсальность</td><td>Меньше premium-ореола, чем у Hochland</td><td>Высокая</td></tr><tr><td>Don Milko</td><td>Узбекистан</td><td>Средний / эконом</td><td>Локальная розница, B2B, wholesale</td><td>Локальное происхождение, цена, доступность</td><td>Требует проверки стабильности для HoReCa</td><td>Средняя</td></tr><tr><td>Локальные производители cream cheese</td><td>Узбекистан</td><td>Эконом / средний</td><td>Локальный wholesale, рынки, HoReCa</td><td>Цена, свежесть, быстрая поставка</td><td>Нестабильность качества, слабый бренд, ограниченная техподдержка</td><td>Средняя</td></tr><tr><td>Российские бренды cream cheese</td><td>Россия</td><td>Средний</td><td>Дистрибьюторы, HoReCa, розница</td><td>Логистика, язык, привычный вкус, цена</td><td>Валютные/политические риски, конкуренция внутри СНГ</td><td>Высокая</td></tr><tr><td>Private label сетей</td><td>Узбекистан / импорт</td><td>Эконом</td><td>Modern trade</td><td>Цена, контроль полки</td><td>Слабая B2B-релевантность</td><td>Средняя</td></tr><tr><td>Премиальные импортные бренды</td><td>ЕС / Турция / Финляндия</td><td>Премиум</td><td>HoReCa, retail, specialty</td><td>Качество, имидж</td><td>Цена, логистика</td><td>Низко-средняя</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Ценовая логика</h3><div class='table-wrap '><table><thead><tr><th>Слой / стратегия</th><th>Тип цены или товара</th><th>Кому продавать</th></tr></thead><tbody><tr><td>Эконом</td><td>Локальный cream cheese / сырный продукт</td><td>Суши-доставка, недорогие кафе, price-driven клиенты</td></tr><tr><td>Средний</td><td>РФ/Беларусь/локальные сильные бренды</td><td>Основной объём HoReCa</td></tr><tr><td>Средний+</td><td>Hochland/профессиональные импортные бренды</td><td>Сети, кондитерки, стабильные рестораны</td></tr><tr><td>Премиум</td><td>ЕС/Турция/специализированный импорт</td><td>Отели, премиальные кофейни, кондитерские</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Барьеры входа</h3><div class='table-wrap '><table><thead><tr><th>Барьер</th><th>Уровень</th><th>Что означает / что делать</th></tr></thead><tbody><tr><td>Цена</td><td>Высокий</td><td>Рынок чувствителен; локальные и СНГ-поставщики давят ценой</td></tr><tr><td>Холодовая цепь</td><td>Высокий</td><td>Limited cold chain и высокие логистические издержки вне городов</td></tr><tr><td>Сертификация</td><td>Средне-высокий</td><td>Санитарные/ветеринарные документы, маркировка и нормы</td></tr><tr><td>Halal</td><td>Высокий</td><td>Для доверия и широкого принятия продукта halal обязателен</td></tr><tr><td>Дистрибьюторская зависимость</td><td>Высокий</td><td>Без локального партнёра доступ к HoReCa и регионам слабый</td></tr><tr><td>Локальная маркировка</td><td>Средний</td><td>Требования к маркировке на узбекском</td></tr><tr><td>Конкуренция Hochland/Bonfesto</td><td>Средний</td><td>Категория уже знакома профессионалам</td></tr><tr><td>Валютные риски</td><td>Средний</td><td>Импортная цена зависит от курса, инфляции, логистики</td></tr><tr><td>Образовательный барьер</td><td>Средний</td><td>Нужны техкарты, обучение поваров и кондитеров</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>SWOT</h3><div class='swot'><div><h4>Strengths</h4><ul><li>Растущий рынок, молодое население, активная доставка</li><li>Сильная культура молочных густых продуктов</li><li>Быстрый рост HoReCa и international cuisine</li><li>Импорт сыров растёт</li><li>Есть понятные сегменты: суши, bakery, кофейни</li></ul></div><div><h4>Weaknesses</h4><ul><li>Высокая ценовая чувствительность</li><li>Cream cheese не является традиционным сыром</li><li>Холодовая цепь неравномерна</li><li>Конкуренция РФ/Беларусь/локальные бренды</li><li>Требуется обучение рынка</li></ul></div><div><h4>Opportunities</h4><ul><li>Стать B2B-стандартом для суши и кондитерки</li><li>Создать профессиональную академию cream cheese</li><li>Войти через дистрибьютора и сети delivery kitchens</li><li>Развить private label для сетей/дистрибьюторов</li><li>Использовать halal как доверительный стандарт</li></ul></div><div><h4>Threats</h4><ul><li>Локальные производители могут демпинговать</li><li>Hochland/Bonfesto уже знакомы рынку</li><li>Валютные колебания съедают маржу</li><li>Регуляторные изменения и импортные процедуры</li><li>Нарушение холодовой цепи ухудшит продукт</li></ul></div></div></div>
+      <div class='subsection'><h3>Рекомендуемые SKU</h3><div class='table-wrap '><table><thead><tr><th>SKU</th><th>Упаковка</th><th>Сегмент</th><th>Роль / приоритет</th></tr></thead><tbody><tr><td>Cream Cheese Classic 60–65%</td><td>2–2,5 кг</td><td>Суши, HoReCa</td><td>Базовый B2B-продукт</td></tr><tr><td>Professional Dense</td><td>2–2,5 кг / 5 кг</td><td>Суши</td><td>Плотный продукт для роллов</td></tr><tr><td>Confectionery</td><td>2–2,5 кг</td><td>Кондитерка</td><td>Взбиваемость, стабильность крема</td></tr><tr><td>Bakery Thermo</td><td>2–2,5 кг / 5 кг</td><td>Выпечка</td><td>Начинки, запекание, термостабильность</td></tr><tr><td>Sauce / Extra Soft</td><td>2 кг</td><td>Кафе, casual dining</td><td>Соусы, паста, горячие блюда</td></tr><tr><td>Retail cup</td><td>140–200 г</td><td>Modern trade</td><td>Вторичный канал после B2B</td></tr><tr><td>Retail</td><td>400–500 г</td><td>Modern trade / home baking</td><td>Домашние десерты, чизкейки</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Локализация продукта</h3><div class='table-wrap '><table><thead><tr><th>Направление</th><th>Решение</th></tr></thead><tbody><tr><td>Halal</td><td>Обязательно получить и вынести на упаковку</td></tr><tr><td>Язык</td><td>Узбекский + русский</td></tr><tr><td>Упаковка</td><td>2–2,5 кг как основной B2B-формат</td></tr><tr><td>Температура хранения</td><td>Крупно указать +2…+6 °C</td></tr><tr><td>Вкус</td><td>Сливочный, мягкий, без выраженной кислоты</td></tr><tr><td>Текстура</td><td>Плотная версия для суши, более мягкая для соусов</td></tr><tr><td>Маркетинг</td><td>Не “сыр для гурманов”, а “стабильный ингредиент для профессиональной кухни”</td></tr><tr><td>Техподдержка</td><td>Рецептуры, тесты, мастер-классы, обучение менеджеров дистрибьютора</td></tr><tr><td>Цена</td><td>Средний/средний+ сегмент</td></tr><tr><td>Ассортимент</td><td>Не больше 3–4 SKU на старте</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Пилотный запуск</h3><div class='grid two'><div><div class='table-wrap '><table><thead><tr><th>Метрика</th><th>Цель</th></tr></thead><tbody><tr><td>B2B-клиенты в тесте</td><td>30–50</td></tr><tr><td>Повторная закупка</td><td>45%+</td></tr><tr><td>SKU на старте</td><td>3–4</td></tr><tr><td>Срок</td><td>90 дней</td></tr></tbody></table></div></div><div class='timeline'><div class="time"><b>Дни 1–15</b><p>Регуляторика, halal, дистрибьютор, 3–4 SKU, список клиентов</p></div><div class="time"><b>Дни 16–45</b><p>Кухонные тесты, обратная связь, сравнительные тесты с Hochland/Bonfesto/локальным продуктом</p></div><div class="time"><b>Дни 46–75</b><p>Первые регулярные клиенты, мастер-классы, регулярная поставка</p></div><div class="time"><b>Дни 76–90</b><p>Пересчёт цены, отсечение слабых SKU, регионы, retail SKU только при B2B-повторах</p></div></div></div><div class='chips'><span>Ташкент</span><span>Самарканд</span><span>Бухара</span><span>Фергана</span><span>Наманган / Андижан — после проверки логистики</span></div></div>
+    </section>
+    
+    <section id='kg' class='country-section'>
+      <div class='country-title'><div><span>KG</span><h2>Кыргызстан</h2><p>Компактный рынок с высокой ценовой чувствительностью. Бишкек концентрирует спрос, затем Ош и Иссык-Куль. Нужен дисциплинированный пилот, cold chain и работа через кухонные тесты.</p></div><div class='country-badge'>Точечный B2B-захват</div></div>
+      <div class='grid three'>
+        <div class='mini-card'><div class='kpi-label'>Потенциал</div><div class='kpi-main'>Средне-высокий</div><p>Оценка из странового исследования</p></div>
+        <div class='mini-card'><div class='kpi-label'>Первый рынок</div><div class='kpi-main'>Бишкек</div><p>География старта пилотных продаж</p></div>
+        <div class='mini-card'><div class='kpi-label'>Стартовый SKU</div><div class='kpi-main'>2–2,5 кг Professional Classic + Sushi Dense</div><p>Главный формат для B2B-валидации</p></div>
+      </div>
+      <div class='subsection'><h3>Макроэкономика, HoReCa и импортная база</h3><div class='table-wrap '><table><thead><tr><th>Показатель</th><th>Значение</th></tr></thead><tbody><tr><td>Население</td><td>около 7,2 млн</td></tr><tr><td>ВВП</td><td>2024: $17,48 млрд</td></tr><tr><td>ВВП на душу</td><td>2024: $2 420</td></tr><tr><td>Рост ВВП</td><td>2024: 9%; прогноз 2025 — 6,8%</td></tr><tr><td>Урбанизация</td><td>около 38,17%</td></tr><tr><td>Modern trade</td><td>Umai Group: Globus, Narodny, Dostor; около 150 магазинов</td></tr><tr><td>Delivery</td><td>Namba Food: более 400 кафе и ресторанов</td></tr><tr><td>HS 040610</td><td>2024: $4,264 млн / 1 250,5 т</td></tr><tr><td>Главные поставщики 040610</td><td>Беларусь $2,65 млн; Россия $1,16 млн; Казахстан $409 тыс.</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Country scorecard</h3><div class='table-wrap '><table><thead><tr><th>Параметр</th><th>Оценка</th><th>Комментарий</th></tr></thead><tbody><tr><td>Общий потенциал</td><td>7/10</td><td>Меньше Узбекистана, но подходит для пилота в Центральной Азии</td></tr><tr><td>Потенциал HoReCa</td><td>7/10</td><td>Сегмент сконцентрирован в Бишкеке, Оше и туристических зонах</td></tr><tr><td>Потенциал суши/роллов</td><td>8/10</td><td>Суши представлены в delivery и ресторанах Бишкека</td></tr><tr><td>Потенциал bakery/confectionery</td><td>7/10</td><td>Хлебная культура + растущие кофейни и кондитерские</td></tr><tr><td>Потенциал кофеен/brunch</td><td>6/10</td><td>Городской и нишевый сегмент</td></tr><tr><td>Зависимость от импорта cream cheese</td><td>8/10</td><td>В fresh cheese/curd доминируют Беларусь и Россия</td></tr><tr><td>Локальное молочное производство</td><td>8/10</td><td>Сильная молочная база, но professional cream cheese незрелый</td></tr><tr><td>Ценовая чувствительность</td><td>9/10</td><td>Сильно price-sensitive рынок</td></tr><tr><td>Барьеры входа</td><td>7/10</td><td>ЕАЭС, сертификация, cold chain, зависимость от дистрибьютора</td></tr><tr><td>Горизонт роста 3–5 лет</td><td>Средне-высокий</td><td>Рост через delivery, международные кухни, кофейни, modern retail</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Сегменты спроса</h3><div class='table-wrap '><table><thead><tr><th>Сегмент</th><th>Потенциал</th><th>Логика спроса</th></tr></thead><tbody><tr><td>Суши и роллы</td><td>Очень высокий</td><td>Главный быстрый B2B-сегмент</td></tr><tr><td>Кондитерка</td><td>Высокий</td><td>Чизкейки, кремы, торты, капкейки</td></tr><tr><td>Bakery</td><td>Высокий</td><td>Начинки, слойки, булочки, тарталетки</td></tr><tr><td>Кофейни</td><td>Средне-высокий</td><td>Десерты, завтраки, сэндвичи</td></tr><tr><td>Breakfast menu</td><td>Средний</td><td>Растёт в Бишкеке, но пока не массовый</td></tr><tr><td>Brunch</td><td>Средний</td><td>Нишевый городской формат</td></tr><tr><td>Casual dining</td><td>Средне-высокий</td><td>Соусы, паста, салаты, fusion</td></tr><tr><td>Dark kitchen</td><td>Высокий</td><td>Суши, пицца, десерты, бургеры</td></tr><tr><td>Ready-to-eat</td><td>Средний</td><td>Сэндвичи, роллы, готовые завтраки</td></tr><tr><td>Food production</td><td>Средний</td><td>Требует стабильности, цены, shelf life</td></tr><tr><td>Industrial production</td><td>Низко-средний</td><td>Малый рынок, нужен объём и контракт</td></tr><tr><td>Catering</td><td>Средний</td><td>Банкетные десерты, завтраки, фуршеты</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Культурная и продуктовая совместимость</h3><div class='table-wrap '><table><thead><tr><th>Основа</th><th>Как работает для cream cheese</th></tr></thead><tbody><tr><td>Молочная база</td><td>Каймак, курут, жуурат, эжигей, сары май, быштак, пышлак, кумыс, айран, чалап, сүзмө</td></tr><tr><td>Хлебная культура</td><td>Нан, боорсок, жупка, токоч, кемоч</td></tr><tr><td>Суши / роллы</td><td>Zen Sushi &amp; Grill, Sushi Room, Arigato и delivery формируют спрос</td></tr><tr><td>Кофейни и кондитерка</td><td>Чизкейки, десерты, завтраки, сэндвичи</td></tr><tr><td>Fusion</td><td>Нан/лепёшки с намазками, боорсок со сладкими и солёными дипами</td></tr><tr><td>Туризм</td><td>Иссык-Куль как сезонный канал: отели, кафе, банкетные форматы</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Востребованные свойства продукта</h3><div class='table-wrap '><table><thead><tr><th>Сегмент</th><th>Свойство</th><th>Важность</th></tr></thead><tbody><tr><td>Общее</td><td>Цена</td><td>Очень высокая</td></tr><tr><td>Общее</td><td>Плотность</td><td>Очень высокая</td></tr><tr><td>Общее</td><td>Стабильность</td><td>Очень высокая</td></tr><tr><td>Общее</td><td>Текстура</td><td>Очень высокая</td></tr><tr><td>Общее</td><td>Взбиваемость</td><td>Высокая</td></tr><tr><td>Общее</td><td>Пластичность</td><td>Высокая</td></tr><tr><td>Общее</td><td>Термостойкость</td><td>Средне-высокая</td></tr><tr><td>Общее</td><td>Срок хранения</td><td>Очень высокая</td></tr><tr><td>Общее</td><td>Упаковка 2–2,5 кг</td><td>Очень высокая</td></tr><tr><td>Общее</td><td>Упаковка 5–10 кг</td><td>Средняя</td></tr><tr><td>Общее</td><td>Halal</td><td>Высокая</td></tr><tr><td>Общее</td><td>Clean label</td><td>Средняя</td></tr><tr><td>Общее</td><td>Локальное происхождение</td><td>Средняя</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Конкурентная среда</h3><div class='table-wrap '><table><thead><tr><th>Бренд / группа</th><th>Страна</th><th>Ценовой сегмент</th><th>Каналы</th><th>Сильные стороны</th><th>Слабые стороны</th><th>Угроза</th></tr></thead><tbody><tr><td>Hochland / Cremette Professional</td><td>Германия / РФ / международный</td><td>Средний+ / премиум</td><td>HoReCa, мелкий опт, кондитеры</td><td>Репутация, стабильность, узнаваемость</td><td>Цена, импортная зависимость</td><td>Высокая</td></tr><tr><td>Bonfesto</td><td>Беларусь</td><td>Средний</td><td>Розница, HoReCa, дистрибьюторы</td><td>Цена/качество, широкая представленность, СНГ-дистрибуция</td><td>Не всегда professional premium</td><td>Высокая</td></tr><tr><td>Violette</td><td>Россия</td><td>Средний</td><td>Розница</td><td>Доступная цена, вкусовые варианты</td><td>Слабее как B2B professional SKU</td><td>Средняя</td></tr><tr><td>Kalleh Labneh</td><td>Иран / импорт</td><td>Средний</td><td>Розница</td><td>Близость к soft cheese/labneh, понятный продукт</td><td>Не главный стандарт для роллов и кондитерки</td><td>Средняя</td></tr><tr><td>President</td><td>Франция / международный</td><td>Средний+</td><td>Розница</td><td>Узнаваемость, доверие</td><td>Больше retail, меньше professional cream cheese</td><td>Средняя</td></tr><tr><td>Savushkin</td><td>Беларусь</td><td>Средний</td><td>Розница / опт</td><td>Цена, СНГ-логистика, молочная репутация</td><td>Требует проверки B2B-линейки</td><td>Средняя</td></tr><tr><td>Belaya Reka</td><td>Кыргызстан</td><td>Средний</td><td>Розница, локальный B2B, экспорт</td><td>Локальность, доверие, молочная база</td><td>Не очевидна специализация на professional cream cheese</td><td>Средняя</td></tr><tr><td>Sut Bulak / Dairy Spring</td><td>Кыргызстан</td><td>Средний+</td><td>Розница, B2B, экспорт</td><td>Сырная экспертиза, локальное производство</td><td>Больше hard/semi-hard cheese, чем cream cheese</td><td>Средняя</td></tr><tr><td>Частные локальные производители</td><td>Кыргызстан</td><td>Эконом</td><td>Рынки, мелкий опт, кафе</td><td>Цена, свежесть</td><td>Нестабильность, слабая стандартизация</td><td>Средняя</td></tr><tr><td>Private label retail</td><td>Кыргызстан / импорт</td><td>Эконом</td><td>Modern trade</td><td>Цена, полка</td><td>Не B2B-решение</td><td>Низко-средняя</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Ценовая логика</h3><div class='table-wrap '><table><thead><tr><th>Слой / стратегия</th><th>Тип цены или товара</th><th>Кому продавать</th></tr></thead><tbody><tr><td>Эконом</td><td>Локальный мягкий сыр / сырный продукт</td><td>Малые кафе, недорогие суши, рынки</td></tr><tr><td>Средний</td><td>Беларусь/Россия/Казахстан</td><td>Основная HoReCa</td></tr><tr><td>Средний+</td><td>Hochland/Cremette/стабильные professional SKU</td><td>Суши-сети, кондитерки, кофейни</td></tr><tr><td>Премиум</td><td>ЕС/специализированный импорт</td><td>Отели, премиальные рестораны, кондитерские</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Барьеры входа</h3><div class='table-wrap '><table><thead><tr><th>Барьер</th><th>Уровень</th><th>Что означает / что делать</th></tr></thead><tbody><tr><td>Цена</td><td>Очень высокий</td><td>Кыргызстан — price-sensitive рынок</td></tr><tr><td>Конкуренция Беларуси</td><td>Высокий</td><td>Беларусь доминирует в fresh cheese/curd импорте</td></tr><tr><td>Конкуренция России</td><td>Высокий</td><td>Россия сильна в processed cheese и свежих сырах</td></tr><tr><td>Холодовая цепь</td><td>Высокий</td><td>Бишкек проще, регионы сложнее</td></tr><tr><td>Сертификация ЕАЭС</td><td>Высокий</td><td>Нужны документы соответствия, EAC, техрегламенты</td></tr><tr><td>Halal</td><td>Средне-высокий</td><td>Важно для доверия и массового принятия</td></tr><tr><td>Дистрибьюторская зависимость</td><td>Высокий</td><td>Без партнёра рынок будет фрагментирован</td></tr><tr><td>Низкий объём рынка</td><td>Средний</td><td>Нельзя ждать объёма Узбекистана или Казахстана</td></tr><tr><td>Локальные производители</td><td>Средний</td><td>Могут давить ценой и свежестью</td></tr><tr><td>Непрозрачность B2B-цен</td><td>Средний</td><td>Много мелкого опта и неформальных каналов</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>SWOT</h3><div class='swot'><div><h4>Strengths</h4><ul><li>Сильная молочная культура</li><li>Рост импорта fresh cheese/curd</li><li>Наличие delivery и sushi-сегмента</li><li>Развитие modern trade</li><li>Возможность ЕАЭС-логистики</li></ul></div><div><h4>Weaknesses</h4><ul><li>Малый размер рынка</li><li>Высокая ценовая чувствительность</li><li>Концентрация спроса в Бишкеке</li><li>Слабая прозрачность B2B-каналов</li><li>Сильная конкуренция Беларуси и России</li></ul></div><div><h4>Opportunities</h4><ul><li>Стать стандартом для суши и кондитерки</li><li>Запустить B2B-академию для поваров</li><li>Войти через дистрибьютора с refrigerated trucks</li><li>Сделать private label для дистрибьютора/сети</li><li>Использовать halal как доверительный фактор</li></ul></div><div><h4>Threats</h4><ul><li>Демпинг локальных и белорусских игроков</li><li>Нарушение холодовой цепи</li><li>Низкая готовность платить за premium</li><li>Серые поставки Cremette/Hochland</li><li>Нестабильность цен и валюты</li></ul></div></div></div>
+      <div class='subsection'><h3>Рекомендуемые SKU</h3><div class='table-wrap '><table><thead><tr><th>SKU</th><th>Упаковка</th><th>Сегмент</th><th>Роль / приоритет</th></tr></thead><tbody><tr><td>Professional Classic 65%</td><td>2–2,5 кг</td><td>HoReCa универсальный</td><td>Базовый вход</td></tr><tr><td>Sushi Dense</td><td>2–2,5 кг</td><td>Суши/роллы</td><td>Плотность, нарезка, не течёт</td></tr><tr><td>Confectionery</td><td>2–2,5 кг</td><td>Кондитеры</td><td>Взбиваемость, стабильность крема</td></tr><tr><td>Bakery Thermo</td><td>2–2,5 кг / 5 кг</td><td>Пекарни</td><td>Начинки, запекание</td></tr><tr><td>Extra Soft / Sauce</td><td>2 кг</td><td>Кафе, рестораны</td><td>Соусы, горячие блюда</td></tr><tr><td>Retail</td><td>140–180 г</td><td>Розница</td><td>Второй этап, полка</td></tr><tr><td>Retail</td><td>400–500 г</td><td>Розница/home baking</td><td>Второй этап, десерты</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Локализация продукта</h3><div class='table-wrap '><table><thead><tr><th>Направление</th><th>Решение</th></tr></thead><tbody><tr><td>Язык</td><td>Русский + кыргызский</td></tr><tr><td>Сертификация</td><td>EAC + ветеринарные/санитарные документы</td></tr><tr><td>Halal</td><td>Обязательно для доверия</td></tr><tr><td>Упаковка</td><td>2–2,5 кг на старте</td></tr><tr><td>Температура</td><td>Крупно указать +2…+6 °C</td></tr><tr><td>Вкус</td><td>Мягкий сливочный, без резкой кислоты</td></tr><tr><td>Текстура</td><td>Отдельно плотная версия для суши</td></tr><tr><td>Коммуникация</td><td>“Стабильный профессиональный творожный сыр”</td></tr><tr><td>Продажи</td><td>Через тесты на кухне</td></tr><tr><td>Поддержка</td><td>Техкарты, мастер-классы, калькулятор себестоимости</td></tr></tbody></table></div></div>
+      <div class='subsection'><h3>Пилотный запуск</h3><div class='grid two'><div><div class='table-wrap '><table><thead><tr><th>Метрика</th><th>Цель</th></tr></thead><tbody><tr><td>B2B-клиенты в тесте</td><td>25–40</td></tr><tr><td>Повторная закупка</td><td>45%+</td></tr><tr><td>Суши-клиенты</td><td>8–12</td></tr><tr><td>Кондитерки/кофейни</td><td>10–15</td></tr><tr><td>Дистрибьюторы</td><td>1–2</td></tr><tr><td>SKU на старте</td><td>3</td></tr><tr><td>Претензии по качеству</td><td>&lt;3%</td></tr><tr><td>Тесты рецептур</td><td>40+</td></tr></tbody></table></div></div><div class='timeline'><div class="time"><b>Дни 1–15</b><p>EAC, ветдокументы, halal, маркировка, refrigerated-дистрибьютор, список 100 клиентов</p></div><div class="time"><b>Дни 16–45</b><p>Кухонные тесты, сравнение с Cremette/Bonfesto/локальными аналогами, себестоимость</p></div><div class="time"><b>Дни 46–75</b><p>Перевод клиентов в закупку, обучение, регулярная поставка, отсечение слабого SKU</p></div><div class="time"><b>Дни 76–90</b><p>Фиксация прайса, дистрибьюторское соглашение, запуск Ош, сезонный тест Иссык-Куля</p></div></div></div><div class='chips'><span>Бишкек</span><span>Ош</span><span>Иссык-Куль</span><span>Кара-Балта / Токмок / Кант — только через дистрибьютора</span></div></div>
+    </section>
+    
+
+<section id='appendix'>
+  <div class='section-title'><h2>Приложение: полный текст исследований</h2><p>Оставлено как проверочный слой. Основной сайт выше структурирует аналитику в таблицы, графики и управленческие блоки.</p></div>
+  <details class='appendix'><summary>Казахстан — полный текст исследования</summary><pre>Исследование рынка Казахстана: 
+профессиональный творожный сыр 
+1. Краткий вывод 
+Казахстан — рынок с высоким потенциалом для B2B-продаж 
+профессионального творожного сыра. 
+Причина не в том, что cream cheese уже стал массовым базовым продуктом. Причина 
+в другом: рынок HoReCa растёт, японская кухня и доставка развиты, кофейни и 
+десертные форматы усиливаются, сырная категория остаётся импортозависимой, а 
+локальное производство пока не закрывает весь спрос по стабильным 
+профессиональным продуктам. 
+Главная точка входа: не розница, а профессиональные кухни. 
+Приоритетные сегменты: 
+Приоритет 
+Сегмент 
+Потенциал 
+1 
+Суши / роллы / delivery 
+Очень высокий 
+2 
+Кондитерские / чизкейки / кремы 
+Высокий 
+3 
+Кофейни / завтраки / brunch 
+Высокий 
+4 
+Пекарни / bakery 
+Средне-высокий 
+5 
+Dark kitchen / cloud kitchen 
+Средне-высокий 
+6 
+Food production / ready-to-eat 
+Средний 
+7 
+Розница 
+Вторичный канал 
+Казахстан в 2025 году имел население около 20,48 млн человек, из них примерно 13,0 
+млн жили в городах. Это даёт урбанизацию около 63–64%, то есть спрос 
+концентрируется в крупных городах: Алматы, Астана, Шымкент, Караганда, Актобе. 
+Рынок foodservice Казахстана оценивался примерно в $2,4 млрд в 2024 году, что 
+делало его вторым среди отдельных стран СНГ после России по оценке INFOLine, 
+приведённой Kursiv. 
+ 
+
+2. Country scorecard: Казахстан 
+Критерий 
+Оценка 
+Вывод 
+Размер HoReCa 
+4/5 
+Рынок уже достаточно крупный для 
+B2B-дистрибуции 
+Рост food service 
+4/5 
+Рост заведений и доставки 
+поддерживает спрос 
+Популярность cream 
+cheese 
+3,5/5 
+Продукт не традиционный, но уже 
+встроен через суши, десерты, 
+кофейни 
+Японская / корейская 
+кухня 
+4/5 
+Сильный драйвер, особенно delivery 
+Bakery / dessert culture 
+4/5 
+Сильная база для чизкейков, кремов, 
+тортов, выпечки 
+Конкуренция 
+3/5 
+Конкуренты есть, но рынок не закрыт 
+полностью 
+Простота входа 
+4/5 для ЕАЭС 
+Для российского производителя вход 
+проще за счёт ЕАЭС 
+Premium-сегмент 
+3,5/5 
+Есть в Алматы и Астане, но рынок 
+чувствителен к цене 
+Mass-market 
+4/5 
+Большой потенциал через суши и 
+доставку 
+Импортозависимость 
+4,5/5 
+Сырная категория заметно зависит от 
+импорта 
+Маржинальность 
+3/5 
+Давление цены высокое, особенно в 
+суши 
+Итоговый потенциал 
+Высокий / 
+стратегический 
+Вход оправдан через B2B-пилот 
+ 
+3. Макроэкономика и потребительская 
+база 
+
+Казахстан — верхне-среднедоходная экономика: Всемирный банк указывает, что рост с 
+2006 года повысил доходы и уровень жизни, переведя страну в статус 
+upper-middle-income. 
+Розничная торговля в январе–октябре 2025 года выросла на 7,4%, food products 
+занимали 32,9% розничного оборота, а крупнейшие доли розничной торговли 
+приходились на Алматы, Астану, Караганду и Восточно-Казахстанскую область. Это 
+важно: B2B-запуск должен начинаться не «по всей стране», а с городских узлов. 
+E-commerce в Казахстане также быстро растёт: в 2024 году объём e-commerce достиг 
+3,4 трлн тенге, а доля в рознице выросла до 15,3%. Это не прямой канал для 
+профессионального сыра, но косвенно усиливает delivery, dark kitchen, маркетплейсы 
+для мелкого B2B и закупки малых кафе. 
+ 
+4. HoReCa и food service 
+В 2023 году в Казахстане было зарегистрировано 15 826 заведений общественного 
+питания, что на 4,5% больше 2022 года. Количество ресторанов выросло с 2 106 до 2 
+303, столовых — с 4 752 до 5 383, а объём оказанных услуг в сфере общественного 
+питания составил 1,1 трлн тенге, плюс 11,9% год к году. 
+По более свежей публикации 2025 года, количество ресторанов достигло 2 358, кафе 
+— 5 202, столовых — 5 618. Лидеры по ресторанам — Астана и Алматы; по кафе — 
+Астана, Алматы и Карагандинская область. 
+Вывод: рынок достаточно плотный для профессиональной дистрибуции, но не 
+настолько зрелый, чтобы заходить только через бренд. Нужен прикладной 
+B2B-продажный подход: технологические тесты, замена конкурента, расчёт 
+себестоимости блюда, стабильность в кухонных процессах. 
+ 
+5. Молочная категория и 
+импортозависимость 
+USDA FAS описывает молочный сектор Казахстана как всё ещё состоящий 
+преимущественно из небольших хозяйств и ограниченных перерабатывающих 
+мощностей, хотя сектор модернизируется. 
+В стране более 180 молокоперерабатывающих предприятий, которые производят 
+молоко, сыр, масло, йогурт и сухое молоко, но по более дорогим категориям — 
+включая сыр — Казахстан продолжает импортировать значительные объёмы. 
+
+По оценке USDA FAS, фактический импорт молочной продукции Казахстана в 2024 
+году после корректировки ошибки в данных составлял около $521 млн. Категория hard 
+&amp; fresh cheese дала около $152 млн и 39 тыс. тонн, то есть примерно 29% стоимости 
+молочного импорта. 
+По WITS / UN Comtrade, импорт Казахстана по HS 040610 — fresh/unripened cheese — 
+в 2024 году составил $70,39 млн и 20,72 тыс. тонн. Основные поставщики: Россия, 
+Беларусь, Иран, Кыргызстан, Литва. 
+DairyNews приводит другую детализацию: cheese imports — 11 356 тонн, fresh cheeses 
+— 6 361 тонн, processed cheese — 3 598 тонн в 2024 году. Расхождение с WITS 
+объясняется разной классификацией и методикой учёта. Для стратегии это не меняет 
+главного вывода: сырная категория в Казахстане импортозависима, а свежие сыры 
+являются отдельным значимым сегментом. 
+ 
+6. Культура питания 
+Творожный сыр не является ядром традиционной казахской кухни. Ядро молочной 
+культуры — молоко, кисломолочные продукты, сметана, кефир, айран, курт, каймак, 
+творог. Это создаёт базовое доверие к молочной категории, но не гарантирует 
+автоматический спрос на cream cheese. 
+Органичное встраивание идёт через современные кухни: 
+Направление 
+Как создаёт спрос на творожный сыр 
+Суши / роллы 
+Начинка роллов, аналог «Филадельфии», стабильная массовая 
+потребность 
+Кондитерка 
+Чизкейки, кремы, капкейки, торты, муссы 
+Кофейни 
+Сэндвичи, бейглы, сырники с кремом, десерты 
+Bakery 
+Слойки, начинки, открытые пироги, десертная выпечка 
+Brunch 
+Завтраки, тосты, намазки, лосось + cream cheese 
+Ready-to-eat 
+Сэндвичи, роллы, ланч-боксы, соусы 
+Premium 
+casual 
+Европейская и fusion-кухня 
+Кофейная культура растёт: Kursiv в 2025 году прямо описывает «coffee boom» в 
+Казахстане, где кофейни становятся не только точками перекуса, но и местом встреч, 
+работы и досуга; по данным Poster, latte был самым популярным кофейным напитком в 
+2024 году. 
+
+Японская кухня и суши-доставка широко представлены: Glovo показывает отдельную 
+категорию sushi delivery в Казахстане и перечисляет суши-операторов в Алматы, 
+Астане и Шымкенте. 
+Корейская кухня имеет в Казахстане не только трендовую, но и 
+культурно-историческую основу через кухню корё-сарам; Almaty Green Market 
+описывается как место, где корейская еда востребована у местных и туристов. 
+ 
+7. Спрос по сегментам 
+Сегмент 
+Потенциал 
+Причина 
+Суши / роллы 
+Очень 
+высокий 
+Массовое использование cream cheese в 
+роллах; высокая частота заказов; delivery 
+Кондитерские 
+Высокий 
+Чизкейки, кремы, торты, капкейки 
+Кофейни 
+Высокий 
+Завтраки, десерты, бейглы, сэндвичи 
+Bakery 
+Средне-высо
+кий 
+Растущий спрос на выпечку и десерты 
+Dark kitchen 
+Средне-высо
+кий 
+Нужны стабильные универсальные ингредиенты 
+HoReCa casual 
+dining 
+Средний 
+Соусы, закуски, завтраки, пасты, супы 
+Industrial food 
+production 
+Средний 
+Нужны объёмы, стабильность, цена, shelf life 
+Catering 
+Средний 
+Канапе, закуски, фуршеты 
+Retail 
+Средний 
+Конкуренция брендов высокая, вход дорогой 
+Вывод: лучший первый рынок — не premium-рестораны, а массовые операторы 
+суши, кондитерские цеха и кофейни. 
+ 
+8. Какие свойства продукта важны 
+Для суши 
+
+Свойство 
+Важность 
+Плотность 
+Критично 
+Пластичность 
+Критично 
+Нейтральный сливочный вкус 
+Критично 
+Отсутствие водоотделения 
+Критично 
+Цена за кг 
+Критично 
+Упаковка 2–10 кг 
+Критично 
+Shelf life 
+Высокая 
+Halal 
+Средне-высока
+я 
+Для кондитерки 
+Свойство 
+Важность 
+Взбиваемость 
+Критично 
+Стабильность крема 
+Критично 
+Отсутствие крупинок 
+Критично 
+Поведение в 
+чизкейке 
+Критично 
+Жирность 
+Высокая 
+Натуральный состав 
+Высокая 
+Цена 
+Высокая 
+Для кофеен / brunch 
+Свойство 
+Важность 
+Вкус 
+Критично 
+Удобство 
+нанесения 
+Высокая 
+Упаковка 1–2 кг 
+Высокая 
+
+Clean label 
+Средне-высока
+я 
+Halal 
+Средняя 
+Цена 
+Высокая 
+Главная ошибка при входе: продавать «вкусный творожный сыр». B2B покупает не 
+вкус. B2B покупает стабильность, выход продукта, себестоимость порции, 
+отсутствие брака и предсказуемость поставки. 
+ 
+9. Конкурентная среда 
+На рынке уже видны международные, российские, белорусские, локальные и 
+региональные бренды. В онлайн-рознице и специализированных магазинах 
+представлены Hochland, Cremette, Bonfesto, President, Almette, Violette, Galbani, Kalleh, 
+Савушкин и другие позиции. 
+Cremette Professional присутствует в Казахстане в профессиональных форматах: 1 кг, 
+2,2 кг, 10 кг. На странице алматинского поставщика указана цена 1 кг — 5 150 тенге, 2,2 
+кг — 10 550 тенге, 10 кг — 39 900 тенге. Там же прямо указаны применения: 
+кондитерское производство, чизкейк, муссы, японская кухня, супы, соусы, салаты, 
+закуски. 
+В рознице Hochland cream cheese 140 г указан по 1 500 KZT, рядом в похожих товарах 
+видны Bonfesto, Violette, Almette, President. 
+Nordic Foods работает как производитель и дистрибьютор международных брендов в 
+Казахстане и соседних странах, заявляя работу с международной экспертизой и 
+локальным спросом. 
+Таблица конкурентов 
+Бренд 
+Происхожд
+ение 
+Сегмен
+т 
+Каналы 
+Сильные 
+стороны 
+Слабые 
+стороны 
+Угроз
+а 
+Hochla
+nd / 
+Cremet
+te 
+Россия / 
+международ
+ный бренд 
+Средни
+й / 
+professi
+onal 
+HoReCa, 
+кондитерс
+кие, 
+розница 
+Узнаваемост
+ь, проф. 
+форматы, 
+доверие 
+кухонь 
+Цена может 
+быть выше 
+локальных 
+альтернатив 
+Очень 
+высок
+ая 
+
+Bonfest
+o 
+Беларусь 
+Средни
+й 
+Розница, 
+HoReCa 
+Сильная 
+цена, 
+знакомость 
+на 
+постсоветско
+м рынке 
+Не всегда 
+воспринимает
+ся как 
+premium 
+professional 
+Высок
+ая 
+Preside
+nt 
+Франция / 
+Lactalis 
+Средни
+й+ 
+Розница 
+Международн
+ый бренд, 
+доверие 
+Меньше 
+фокуса на 
+профессиона
+льный B2B 
+Сред
+няя 
+Almette 
+Hochland 
+Средни
+й+ 
+Розница 
+Сильный 
+потребительс
+кий бренд 
+Не основной 
+проф. продукт 
+для 
+суши/цехов 
+Сред
+няя 
+Violette 
+/ Karat 
+Россия 
+Средни
+й 
+Розница, 
+возможно 
+HoReCa 
+Широкая 
+вкусовая 
+линейка 
+Ниже 
+технологическ
+ий авторитет, 
+чем Cremette 
+Сред
+няя 
+Natura 
+/ Nordic 
+Foods 
+Казахстан / 
+региональн
+ая 
+дистрибуци
+я 
+Средни
+й / 
+professi
+onal 
+Дистрибу
+ция, retail, 
+HoReCa 
+Локальное 
+присутствие, 
+профессиона
+льная 
+дистрибуция 
+Нужно 
+проверять 
+силу именно в 
+cream cheese 
+Сред
+няя 
+Adal 
+Казахстан 
+Локальн
+ый 
+Розница, 
+локальна
+я молочка 
+Локальное 
+происхожден
+ие, доверие к 
+молочной 
+категории 
+Возможна 
+слабее 
+технологично
+сть в проф. 
+применении 
+Сред
+няя 
+Kalleh 
+Иран 
+Цена / 
+средний 
+Спец. 
+поставщи
+ки 
+Цена ниже 
+Cremette в 
+отдельных 
+предложения
+х 
+Брендовая 
+узнаваемость 
+ниже 
+Сред
+няя 
+Савушк
+ин 
+Беларусь 
+Цена / 
+средний 
+Спец. 
+поставщи
+ки 
+Цена, 
+постсоветска
+я 
+узнаваемость 
+Не всегда 
+premium 
+Сред
+няя 
+ 
+10. Ценовая логика 
+
+Открытые цены показывают такие ориентиры: 
+Продукт 
+Формат 
+Открытая цена 
+Cremette 
+1 кг 
+5 150 KZT 
+Cremette 
+Professional 
+2,2 кг 
+10 550 KZT 
+Cremette 
+Professional 
+10 кг 
+39 900 KZT 
+Kalleh 
+1 кг 
+3 790 KZT 
+Савушкин 
+1 кг 
+3 895 KZT 
+Hochland retail 
+140 г 
+1 500 KZT 
+Источник: алматинский специализированный поставщик и онлайн grocery-каталог. 
+Практический вывод: для входа в суши и массовую кондитерку новый бренд должен 
+попасть в один из трёх коридоров: 
+Стратегия 
+Цена 
+Кому продавать 
+Ниже Cremette 
+Агрессивная 
+Суши, dark kitchen, delivery 
+На уровне 
+Cremette 
+Только при доказанной 
+стабильности 
+Кондитерские и сети 
+Выше Cremette 
+Только premium / clean label / 
+special SKU 
+Премиальные кафе, 
+кондитерские, отели 
+Без технологического превосходства или экономии на себестоимости блюда вход «по 
+бренду» будет слабым. 
+ 
+11. Регуляторные и логистические 
+барьеры 
+Казахстан входит в ЕАЭС, где заявлена свобода движения товаров, услуг, капитала и 
+рабочей силы между странами-членами. Для российского производителя это снижает 
+барьер входа относительно поставщиков из стран вне ЕАЭС. 
+Импортируемая продукция должна маркироваться на казахском и русском языках; 
+маркировка должна содержать название продукта, производителя, страну 
+
+происхождения, дату производства, срок годности, условия хранения, пищевую 
+ценность и инструкцию по применению. Для товаров, подлежащих оценке 
+соответствия в ЕАЭС, требуется маркировка EAC. 
+В отношении сельхозтоваров WTO-bound rates Казахстана ограничены уровнем до 
+18,2%, но фактическая ставка по конкретному HS-коду требует отдельной проверки по 
+таможенной классификации. 
+Halal не является универсальным обязательным требованием для всего cream cheese, 
+но Казахстан имеет национальный стандарт OIC/SMIIC 1-2022 “General Requirements 
+for Halal Food”, поэтому halal-сертификация будет преимуществом для сетей, 
+мусульманской аудитории, части японских/паназиатских операторов и foodservice. 
+DairyNews указывает, что Казахстан просил продлить переходный период по 
+требованиям техрегламента безопасности молока и молочной продукции до 2027 года 
+из-за сложности адаптации сектора, особенно малых хозяйств. Это подтверждает 
+структурную слабость части локального молочного сырья. 
+ 
+12. SWOT для входа бренда 
+профессионального творожного сыра 
+S — сильные стороны 
+W — слабые стороны 
+Профессиональный продукт можно 
+продавать через технологию, а не только 
+бренд 
+Новый бренд должен преодолеть 
+привычку кухонь к Cremette / Bonfesto 
+Российское происхождение удобно для 
+ЕАЭС 
+Цена должна быть очень точной 
+Сегменты суши, кондитерки и кофеен уже 
+сформированы 
+Казахстанский рынок чувствителен к 
+цене 
+Можно быстро запускать пилоты через 
+Алматы и Астану 
+Нужна холодовая цепь и стабильный 
+дистрибьютор 
+Есть импортозависимость по сырам 
+Без halal и EAC вход в часть каналов 
+слабее 
+ 
+O — возможности 
+T — угрозы 
+Замещение дорогих импортных 
+брендов 
+Ответная ценовая активность конкурентов 
+
+Рост delivery, sushi, bakery, 
+кофеен 
+Давление локальных и белорусских брендов 
+Private label для сетей и 
+foodservice 
+Валютные колебания 
+Профессиональные SKU 2 кг / 
+10 кг 
+Логистические сбои и нарушение cold chain 
+Обучение шефов и технологов 
+Закупщики будут сравнивать только цену за кг, 
+если не дать расчёт выхода 
+ 
+13. Рейтинг сегментов 
+Мест
+о 
+Сегмент 
+Почему 
+1 
+Суши / роллы 
+Самый прямой и понятный спрос. Cream cheese — 
+базовый ингредиент категории 
+2 
+Кондитерские 
+цеха 
+Высокое потребление в чизкейках, кремах, тортах 
+3 
+Кофейни 
+Растущая культура завтраков, десертов, сэндвичей 
+4 
+Bakery 
+Сырные начинки, десертная выпечка, слоёные изделия 
+5 
+Dark kitchen 
+Высокая потребность в универсальном стабильном 
+ингредиенте 
+6 
+Food production 
+Потенциально крупные объёмы, но длинный цикл входа 
+7 
+Розница 
+Дорогой канал, высокая конкуренция, нужен 
+маркетинговый бюджет 
+ 
+14. Наиболее перспективные SKU 
+Обязательные SKU для входа 
+SKU 
+Назначение 
+Приоритет 
+Cream cheese professional 65–70%, 2 
+кг 
+Суши, кафе, малые 
+кондитерские 
+Очень высокий 
+
+Cream cheese professional 65–70%, 
+10 кг 
+Сети суши, dark kitchen, цеха Очень высокий 
+Cream cheese pastry / whipping, 2 кг 
+Чизкейки, кремы, торты 
+Высокий 
+Cream cheese stable / dense для 
+роллов, 10 кг 
+Суши и delivery 
+Высокий 
+Cream cheese clean label, 1–2 кг 
+Premium bakery / кофейни 
+Средне-высоки
+й 
+400 г retail / small B2B 
+Малые кафе и пробные 
+закупки 
+Средний 
+Не начинать с вкусовых SKU 
+Сыры с зеленью, грибами, овощами, песто и другими вкусами — вторичный слой. Для 
+B2B сначала нужен базовый сливочный профессиональный продукт, потому что 
+кухни хотят универсальность. 
+ 
+15. Стратегия входа 
+Этап 1. Пилот: 90 дней 
+География: 
+1.​ Алматы 
+2.​ Астана 
+3.​ Шымкент — вторым эшелоном 
+4.​ Караганда — вторым эшелоном 
+Цель пилота: не «продать паллету», а доказать замену текущего продукта. 
+Этап 2. Каналы 
+Канал 
+Роль 
+HoReCa-дистрибьютор 
+Основной вход 
+Кондитерские поставщики 
+Быстрый доступ к цехам 
+Суши-дистрибьюторы 
+Массовый объём 
+Прямые продажи сетям 
+Для крупных клиентов 
+
+Маркетплейсы / B2B онлайн 
+Для малых кафе 
+Retail 
+Только после 
+B2B-валидации 
+Этап 3. Коммерческое предложение 
+Продавать нужно не «сыр», а экономику применения: 
+Аргумент 
+Что показывать 
+Цена за кг 
+Сравнение с Cremette / Bonfesto / Kalleh 
+Цена на порцию Ролл, чизкейк, крем, сэндвич 
+Выход продукта 
+Сколько порций с 1 кг 
+Стабильность 
+Водоотделение, плотность, 
+взбиваемость 
+Потери 
+Меньше брака, меньше списаний 
+Shelf life 
+Удобство закупки 
+Упаковка 
+2 кг и 10 кг для кухни 
+ 
+16. Рекомендации по B2B-продажам 
+Для суши 
+Главный оффер: 
+«Стабильный cream cheese для роллов: плотность, вкус, минимальное 
+водоотделение, понятная себестоимость порции». 
+Материалы для менеджера: 
+Инструмент 
+Содержание 
+Тест-карта ролла 
+3 ролла: с текущим сыром, с новым, слепая 
+дегустация 
+Калькулятор 
+себестоимости 
+Цена сыра на 1 ролл / 1 сет 
+
+Тест водоотделения 
+24–48 часов после вскрытия 
+Тест нарезки 
+Поведение в ролле после охлаждения 
+Таблица замены 
+Cremette / Bonfesto / Kalleh / новый продукт 
+Для кондитерки 
+Главный оффер: 
+«Сыр для стабильного крема и чизкейка: ровная текстура, предсказуемая 
+взбиваемость, чистый сливочный вкус». 
+Тесты: 
+Тест 
+Что проверять 
+Чизкейк 
+Текстура после выпечки / охлаждения 
+Крем 
+Взбиваемость и стабильность 
+Капкейк 
+Держит форму или нет 
+Мусс 
+Однородность 
+Смешивание со 
+сливками 
+Нет расслоения 
+Для кофеен 
+Главный оффер: 
+«Универсальный cream cheese для завтраков, десертов, бейглов, сэндвичей и 
+авторских блюд». 
+Тесты: 
+Тест 
+Что проверять 
+Намазывание 
+Удобство работы 
+Сэндвич 
+Не течёт 
+Тост / бейгл 
+Вкус и внешний вид 
+Десерт 
+Стабильность 
+
+Хранение после вскрытия Поведение в рабочем 
+холодильнике 
+ 
+17. Рекомендации по локализации 
+Направление 
+Решение 
+Язык 
+Казахский + русский на упаковке 
+Сертификаци
+я 
+EAC обязательно при применимости 
+Halal 
+Желательно получить сразу 
+Упаковка 
+2 кг и 10 кг как основные B2B-форматы 
+Вкус 
+Базовый сливочный, без яркой кислотности 
+Текстура 
+Отдельная версия для суши и версия для кондитерки 
+Коммуникация Не «творожный сыр для дома», а «профессиональный cream cheese 
+для кухни» 
+Дистрибуция 
+Холодовая цепь, Алматы как главный складской узел 
+Документы 
+Спецификация, декларация, лабораторные показатели, shelf life, 
+хранение после вскрытия 
+ 
+18. Главные риски 
+Риск 
+Уровен
+ь 
+Что делать 
+Ценовая конкуренция 
+Высокий Давать расчёт себестоимости блюда, не спорить 
+только ценой за кг 
+Привычка к Cremette 
+Высокий Делать технологические тесты на кухне клиента 
+Нестабильная 
+холодовая цепь 
+Высокий Работать через проверенного дистрибьютора 
+Низкая известность 
+бренда 
+Средни
+й 
+Продавать через шефов, технологов, 
+демонстрации 
+
+Требования сетей 
+Средни
+й 
+Подготовить документы, упаковку, EAC, halal 
+Валюта / логистика 
+Средни
+й 
+Фиксировать коридоры цены и складской запас 
+Локальные 
+производители 
+Средни
+й 
+Отстроиться технологичностью и стабильностью 
+ 
+19. Финальный рейтинг возможностей 
+Наиболее перспективные сегменты 
+1.​ Суши / роллы 
+2.​ Кондитерские производства 
+3.​ Кофейни 
+4.​ Bakery 
+5.​ Dark kitchen 
+6.​ Food production 
+7.​ Retail 
+Наиболее перспективные SKU 
+1.​ Professional cream cheese 2 кг 
+2.​ Professional cream cheese 10 кг 
+3.​ Dense sushi cream cheese 10 кг 
+4.​ Pastry / whipping cream cheese 2 кг 
+5.​ Clean label cream cheese 1–2 кг 
+6.​ Small B2B trial pack 400 г / 1 кг 
+Наиболее перспективные каналы 
+1.​ HoReCa-дистрибьюторы 
+2.​ Поставщики для суши 
+3.​ Поставщики для кондитерских 
+4.​ Прямые продажи сетевым суши / кофейням 
+5.​ B2B-маркетплейсы 
+6.​ Retail — позже 
+Наиболее перспективные партнёрства 
+1.​ Дистрибьютор с холодовой логистикой в Алматы 
+
+2.​ Кондитерские школы / технологи 
+3.​ Суши-сети и dark kitchen 
+4.​ Сети кофеен 
+5.​ Поставщики ингредиентов для bakery 
+6.​ Локальный партнёр для private label 
+ 
+20. Практический вывод 
+Казахстан нужно рассматривать как стратегический рынок второго уровня: меньше 
+России, но достаточно крупный, городской, импортозависимый по сырам, растущий в 
+HoReCa и удобный для входа российского производителя через ЕАЭС. 
+Правильная стратегия: 
+1.​ Не начинать с розницы. 
+2.​ Не продавать только «натуральность». 
+3.​ Не конкурировать слепо с Cremette по бренду. 
+4.​ Входить через профессиональные тесты. 
+5.​ Делать отдельные SKU под суши и кондитерку. 
+6.​ Сразу готовить EAC, казахско-русскую маркировку и halal. 
+7.​ Первый пилот — Алматы и Астана. 
+8.​ Основной канал — HoReCa-дистрибьютор + прямые продажи ключевым сетям. 
+9.​ Главный аргумент — себестоимость порции и стабильность продукта. 
+10.​Розницу подключать только после доказанного B2B-спроса. 
+ 
+</pre></details><details class='appendix'><summary>Узбекистан — полный текст исследования</summary><pre>Исследование рынка Узбекистан 
+профессионального творожного сыра:  
+Основание: структура исследования взята из загруженного ТЗ по анализу рынка 
+профессионального творожного сыра в Узбекистане. 
+0. Короткий вывод 
+Потенциал рынка: высокий, но не “массовый сразу”. Узбекистан интересен как 
+рынок B2B-творожного сыра из-за роста городского потребления, развития food service, 
+доставки, кофеен, пекарен, суши/роллов, международных сетей и modern trade. 
+Главная точка входа: не розница, а HoReCa + bakery + sushi + кофейни + 
+дистрибьютор food service. 
+Главная проблема рынка: прямых открытых данных именно по cream cheese мало. 
+Таможенная статистика ведётся по широкой группе 0406 “cheese and curd”, внутри 
+которой fresh cheese/curd 040610 в 2023 году составлял около $11,1 млн, то есть 30% 
+сырного импорта Узбекистана. Это не весь cream cheese, но это ближайшая 
+релевантная категория. 
+Стратегическая оценка: Узбекистан — рынок ранней/средней зрелости. Конкуренция 
+уже есть: Hochland Cremette Professional, Bonfesto, Don Milko, локальные 
+производители, импорт из России и Беларуси. Но профессиональный сегмент ещё не 
+выглядит полностью сформированным, что создаёт окно для бренда с сильной 
+технологической экспертизой, стабильным качеством и B2B-обучением. 
+ 
+1. Country scorecard 
+Параметр 
+Оценка 
+Комментарий 
+Общий потенциал 
+рынка 
+8/10 
+Растущий городской рынок, молодое население, 
+увеличение доходов, развитие доставки и food 
+service 
+Потенциал HoReCa 
+8/10 
+Food service оценивается USDA в $1,2 млрд, 
+сектор растёт на фоне урбанизации и роста 
+доходов 
+
+Потенциал sushi/rolls 
+8/10 
+Суши-сети и delivery активно представлены в 
+Ташкенте, Самарканде, Бухаре, Фергане; есть 
+крупные игроки вроде Yaponamama 
+Потенциал 
+bakery/confectionery 
+8/10 
+В культуре сильна выпечка; modern bakery и 
+кофейни развиваются; bakery and breakfast cereals 
+входят в топ перспективных импортных категорий 
+USDA 
+Потенциал 
+кофеен/brunch 
+7/10 
+Кофейная культура развивается в городах, 
+особенно в Ташкенте; Tripadvisor фиксирует 
+широкий пласт кафе и coffee/tea spots 
+Зависимость от 
+импорта 
+7/10 
+Импорт сыров $36 млн в 2023, рост +39% к 2022; 
+Россия и Беларусь — ключевые поставщики 
+Локальное 
+производство 
+6/10 
+Есть локальные производители cream cheese, но 
+сегмент ещё фрагментирован; GoldenPages 
+фиксирует 7 организаций в категории cream 
+cheese production 
+Ценовая 
+чувствительность 
+8/10 
+Доходы растут, но рынок остаётся price-sensitive; 
+USDA отдельно указывает инфляцию, валютные 
+риски и чувствительность к цене как ограничения 
+Барьеры входа 
+6/10 
+Сертификация, холодовая цепь, дистрибуция, 
+halal, локальная маркировка, валютные риски 
+Горизонт роста 3–5 
+лет 
+высоки
+й 
+Драйверы: delivery, международные кухни, 
+кофейни, bakery, modern retail, рост среднего 
+класса 
+ 
+2. Общий обзор региона 
+2.1. Базовая макроэкономика 
+Узбекистан — самый крупный потребительский рынок Центральной Азии. По данным 
+World Bank, население страны в 2024 году составляло 36,36 млн человек, ВВП — 
+$114,97 млрд, ВВП на душу населения — $3 161,7, реальный рост ВВП — 6,5%. 
+USDA в Exporter Guide 2025 даёт более свежую оценку населения — 37,5 млн 
+человек и указывает, что население растёт примерно на 1 млн человек в год, 
+медианный возраст — около 27 лет, а более 50% населения проживает в городах. Это 
+важный фактор для cream cheese: продукт растёт не через традиционную сельскую 
+корзину, а через городское потребление, HoReCa, доставку, кафе, пекарни и modern 
+retail. 
+
+Food retail в Узбекистане USDA оценивает в $12,5 млрд, food service/HRI — в $1,2 
+млрд, food processing — в $6,8 млрд. Организованная розница занимает около 18% 
+продаж, при этом традиционные базары всё ещё доминируют в свежих продуктах и 
+особенно вне крупных городов. 
+Вывод: рынок достаточно большой для B2B-входа, но ещё не зрелый. Массовое 
+потребление профессионального творожного сыра будет формироваться не через 
+домохозяйства, а через профессиональные кухни. 
+ 
+2.2. Modern trade и e-commerce 
+Ключевые modern trade игроки: Korzinka, Makro, Havas, Magnum Cash &amp; Carry, Uzum 
+Market, Farovon.uz. USDA включает их в список ведущих food retail игроков страны. 
+Korzinka — крупнейший modern retail игрок. По открытым данным сети, Korzinka 
+работает более чем со 150 магазинами в 12 регионах Узбекистана. В 2024 году 
+выручка Korzinka достигла около 9,4 трлн сумов, а like-for-like sales выросли на 9,3%. 
+Havas позиционируется как сеть дискаунтеров “у дома”, работающая с известными 
+мировыми и локальными брендами, а также собственными продуктами. Это важно: 
+дискаунтеры будут давить цену, но не являются главным каналом для 
+профессионального cream cheese. Они важны как индикатор роста современной 
+торговли и формирования привычки покупать упакованные молочные продукты. 
+Uzum — ключевой цифровой игрок. В 2024 году MAU экосистемы выросли на 61% до 
+почти 16 млн пользователей, что составляет около 40% населения; GMV commerce 
+составил $345 млн, рост 2,4х год к году. Для cream cheese это не прямой B2B-канал, но 
+важная инфраструктура: e-commerce и delivery меняют привычку к заказу еды, 
+полуфабрикатов, готовых блюд и ингредиентов. 
+ 
+2.3. HoReCa и доставка 
+Food service в Узбекистане оценивается USDA в $1,2 млрд. Сектор растёт за счёт 
+урбанизации, роста доходов, молодого потребителя, международных сетей и 
+форматов доставки. USDA отмечает расширение KFC, Domino’s, Wendy’s и ожидаемый 
+вход Burger King. 
+Uzum Tezkor в конце 2024 года имел 2 400+ ресторанов-партнёров и работал в 18 
+городах; за год число партнёров удвоилось. В 2025 году сервис сообщил о работе уже 
+в 25 городах, 2 600 партнёрах и 7 000 курьерах. 
+Комитет по конкуренции признал Uzum Tezkor доминирующим оператором на рынке 
+доставки готовой еды и потребительских товаров; ранее аналогичный статус получили 
+Yandex Eats и Express24. 
+
+Вывод: доставка — один из главных драйверов спроса на cream cheese. Она 
+усиливает категории, где продукт часто используется: роллы, пицца, бургеры, 
+сэндвичи, чизкейки, десерты, завтраки, выпечка. 
+ 
+3. Культура питания 
+3.1. Молочная основа в традиционной кухне 
+Узбекистан не является “сырной” страной в европейском смысле, но является страной 
+с сильной культурой ферментированных и сливочных молочных продуктов. В 
+традиционной кухне распространены катык, сузьма, курт, каймак, айран. Advantour 
+описывает катык, сузьму, курт и каймак как популярные продукты, которые едят 
+отдельно или добавляют в блюда. 
+Suzma — густой продукт, близкий к отцеженному йогурту/творожной массе; kaymak — 
+плотный сливочный продукт, похожий на густые сливки или сметану. 
+Это создаёт важную культурную опору: потребитель не чужд густым молочным 
+текстурам. Cream cheese не нужно объяснять как “инородный” продукт. Его нужно 
+встроить в понятную рамку: сливочность, плотность, натуральность, 
+стабильность, универсальность. 
+ 
+3.2. Традиционная выпечка и хлебная культура 
+Узбекистан — сильная хлебная и мучная культура: лепёшки, самса, слоёная выпечка, 
+тандыр, пироги, блюда из теста. Это не означает автоматический спрос на cream 
+cheese, но создаёт технологические точки входа: начинки, кремы, соусы, bakery 
+topping, премиальная выпечка, десертная линейка, завтраки. 
+Для профессионального B2B-продукта это важнее, чем розничное потребление. Cream 
+cheese может развиваться как ингредиент для: 
+Локальная база 
+Возможная адаптация cream cheese 
+Самса / слоёная 
+выпечка 
+Сырные начинки, кремовые соусы, fusion-самса 
+Лепёшки / хлеб 
+Завтраки, намазки, open sandwich 
+Каймак / сузьма 
+Локальная аналогия по текстуре и сливочности 
+Праздничные десерты 
+Чизкейки, кремы, рулеты, прослойки 
+
+Чайная культура 
+Десертные пары, bakery, сладкая выпечка 
+ 
+3.3. Международные кухни 
+Японская кухня 
+Суши и роллы — один из главных драйверов cream cheese в постсоветских рынках. В 
+Узбекистане японская кухня уже вышла за рамки нишевого Ташкента. Yaponamama 
+прямо указывает доставку суши и роллов в Ташкенте, Самарканде и Бухаре, а также 
+присутствие в Фергане. 
+Wanderlog фиксирует десятки суши-ресторанов и суши-баров в Ташкенте, включая 
+Jumanji, Assorti, Yapona Mama. 
+Вывод: sushi segment — первый коммерческий сегмент для входа. Здесь творожный 
+сыр воспринимается не как “новый продукт”, а как стандартный ингредиент для роллов 
+типа Philadelphia. 
+ 
+Корейская кухня 
+Корейская кухня имеет в Узбекистане не просто трендовую, а культурно-историческую 
+основу через корё-сарам. Tripadvisor показывает 42 результата по Korean restaurants in 
+Tashkent. 
+Cream cheese не является базовым ингредиентом традиционной корейской кухни, но 
+он может использоваться в fusion: кремовые соусы, булочки, street food, bakery, spicy 
+cream toppings. Этот сегмент вторичный, но полезный для трендовых сетей и 
+молодёжных заведений. 
+ 
+Европейская и американская кухни 
+Европейские кафе, пицца, паста, бранчи, сэндвичи, чизкейки, круассаны, тарталетки, 
+капкейки, пекарни и кофейни создают устойчивый спрос. USDA отдельно относит 
+“international cuisine ingredients” к растущим категориям и связывает рост с 
+глобальными вкусами, Western, Asian, Middle Eastern cuisines. 
+Американская кухня через delivery и QSR усиливает спрос на стабильные сырные 
+ингредиенты, но именно cream cheese больше выигрывает не от бургеров, а от 
+десертов, breakfast menu, coffee chains и bakery. 
+ 
+
+4. Спрос на профессиональный 
+творожный сыр по сегментам 
+Сегмент 
+Потенциал 
+Причина 
+Суши и роллы 
+Очень 
+высокий 
+Cream cheese — стандарт категории; delivery 
+усиливает частоту потребления 
+Bakery 
+Высокий 
+Сильная хлебная культура + рост modern bakery 
+Кондитерка 
+Высокий 
+Чизкейки, кремы, рулеты, торты, капкейки 
+Кофейни 
+Высокий 
+Десерты, завтраки, сэндвичи, тосты 
+Brunch / breakfast 
+Средне-высо
+кий 
+Сегмент формируется в Ташкенте и крупных 
+городах 
+HoReCa casual 
+dining 
+Высокий 
+Соусы, начинки, десерты, fusion 
+Dark kitchen / 
+delivery 
+Высокий 
+Суши, пицца, десерты, сэндвичи 
+Ready-to-eat 
+Средний 
+Рынок растёт, но требует shelf life и упаковки 
+Food production 
+Средний 
+Нужны стабильность, цена, техподдержка 
+Industrial 
+confectionery 
+Средний 
+Потенциал есть, но вход через тесты и техкарты 
+Catering 
+Средний 
+Завтраки, фуршеты, банкетные десерты 
+ 
+4.1. Самые перспективные блюда 
+Категория 
+Примеры продуктов 
+Роллы 
+Philadelphia roll, baked rolls, spicy cream rolls 
+Чизкейки 
+Classic, berry, caramel, pistachio, chocolate 
+Крема 
+Cream cheese frosting, прослойки, кремы для рулетов 
+Bakery 
+Круассаны, тарталетки, булочки, слойки 
+Завтраки 
+Bagel/open toast, омлет с cream cheese, сырные намазки 
+Соусы 
+Cream cheese sauce для пасты, курицы, овощей 
+
+Fusion 
+local 
+Лепёшка + cream cheese + зелень; самса с сырной начинкой; соус к 
+мантам 
+RTE 
+Сэндвичи, ролл-лаваши, готовые завтраки 
+ 
+5. Востребованные свойства продукта 
+Для Узбекистана важна не “премиальная история”, а стабильность результата при 
+приемлемой цене. 
+Свойство 
+Важность 
+Почему 
+Цена 
+Очень 
+высокая 
+Рынок чувствителен к цене; конкуренты из 
+РФ/Беларуси имеют логистическое и ценовое 
+преимущество 
+Стабильность 
+Очень 
+высокая 
+HoReCa выбирает продукт, который одинаково 
+ведёт себя в роллах, кремах и начинках 
+Плотность 
+Очень 
+высокая 
+Критично для суши и кондитерки 
+Текстура 
+Очень 
+высокая 
+Не должен течь, расслаиваться, крупиниться 
+Взбиваемость 
+Высокая 
+Кондитерка и кофейни 
+Пластичность 
+Высокая 
+Роллы, намазки, кремы 
+Термостойкость 
+Средне-вы
+сокая 
+Bakery, запечённые роллы, соусы 
+Срок хранения 
+Очень 
+высокий 
+Холодовая цепь неравномерна; USDA отмечает 
+ограниченную cold chain как проблему рынка 
+Упаковка 2–2,5 кг 
+Очень 
+высокая 
+Оптимально для HoReCa 
+Упаковка 5–10 кг 
+Средне-вы
+сокая 
+Для фабрик-кухонь, суши-сетей, кондитерского 
+производства 
+Halal 
+Очень 
+высокая 
+USDA подчёркивает, что halal-сертификация 
+важна для доверия и принятия продукта в 
+Узбекистане 
+Clean label 
+Средняя 
+В премиальном сегменте важно, но цена часто 
+сильнее 
+
+Локальное 
+происхождение 
+Среднее 
+Даёт доверие и цену, но professional segment 
+готов брать импорт при стабильности 
+ 
+6. Зрелость рынка 
+6.1. Стадия 
+Стадия: ранняя/средняя профессионализация. 
+Признаки: 
+1.​ Есть импорт и локальные производители. 
+2.​ Есть спрос от суши, bakery, кондитерки, HoReCa. 
+3.​ Есть профессиональные позиции вроде Hochland Cremette Professional. 
+4.​ Но категория ещё не выглядит насыщенной: нет большого числа 
+специализированных B2B-брендов, технологических школ, публичных 
+профессиональных сравнений, сильной category education. 
+6.2. Конкуренция 
+Импорт сыров и творожных продуктов растёт. В 2023 году импорт группы 0406 “cheese 
+and curd” составил $36 млн, рост +39% к 2022 году. Главные поставщики: Россия — 
+39%, Беларусь — 18,2%, Литва — 9,1%, Финляндия — 6,98%, Германия — 6,18%, 
+Турция — 5,37%. 
+В структуре импорта 2023 года fresh cheese/curd 040610 занимал $11,1 млн, то есть 
+около 30% группы. Это ближайший публичный индикатор спроса на продукты типа 
+творожного сыра, но он не равен чистому cream cheese. 
+Оценка зрелости: 
+Параметр 
+Оценка 
+Уровень конкуренции 
+Средний 
+Насыщенность 
+Низко-средняя 
+Темпы роста 
+Высокие 
+Международные бренды 
+Уже присутствуют 
+Локальные бренды 
+Есть, но фрагментированы 
+Готовность к новым игрокам 
+Высокая при наличии цены, качества и дистрибуции 
+
+Чувствительность к цене 
+Высокая 
+Чувствительность к качеству 
+Высокая в HoReCa, средняя в mass-market 
+ 
+7. Конкурентная среда 
+7.1. Основные группы конкурентов 
+1. Международные профессиональные бренды 
+Hochland Cremette Professional уже представлен в Узбекистане через B2B-каталоги. 
+Bizkim показывает позицию Hochland Cremette Professional Cheese как товар для 
+wholesale от поставщика Global Trade Horeca в Ташкенте. 
+Сильная сторона Hochland: узнаваемость, профессиональная репутация, 
+стабильность, доверие HoReCa. Слабая сторона: цена и зависимость от импортной 
+логистики. 
+2. Белорусские бренды 
+Bonfesto — вероятный сильный игрок для розницы и HoReCa. На сайте Bonfesto 
+cream cheese classic описан как продукт для cooking, подходящий для десертов, 
+закусок, мясных блюд и роллов Philadelphia. Упаковка 500 г, хранение +2…+6 °C. 
+У Bonfesto есть линейка Extra Soft для соусов, горячих блюд, пирогов, пиццы, салатов, 
+супов и десертов. 
+Сильная сторона: близость к постсоветским вкусам, понятная цена, хорошая 
+дистрибуционная логика через Беларусь/СНГ. Слабая сторона: не всегда 
+воспринимается как “профессиональный премиум”, если сравнивать с Hochland. 
+3. Локальные производители 
+GoldenPages фиксирует 7 организаций в категории “cream cheese production” в 
+Узбекистане. Среди них: Navroz Kumish Tulpor, Bio Natural Food, Bio-Sut, Cream Mega 
+Cheese, Gold Tek, Molochniy Domik, Tillo Domor. 
+Это говорит о наличии локального предложения, но не доказывает глубину 
+профессиональной технологической экспертизы. Локальные игроки могут быть сильны 
+в цене и доступности, но у них часто слабее B2B-маркетинг, технологическое 
+сопровождение, единая линейка SKU и стандартизация. 
+4. Российские и СНГ-поставщики 
+
+Россия — главный поставщик сыров и творожных продуктов в Узбекистан: 39% 
+импорта группы 0406 в 2023 году. Беларусь — второй поставщик с 18,2%. 
+Это означает: российский бренд может иметь логистическое и культурное 
+преимущество, но конкурировать придётся с уже привычными поставщиками из 
+РФ/Беларуси. 
+ 
+7.2. Таблица конкурентов 
+Бренд / 
+группа 
+Страна 
+Цено
+вой 
+сегме
+нт 
+Основные 
+каналы 
+Сильные 
+стороны 
+Слабые 
+стороны 
+Потенциа
+льная 
+угроза 
+Hochland 
+Cremette 
+Professio
+nal 
+Германия/
+междунар
+одный 
+бренд 
+Средн
+ий+ / 
+преми
+ум 
+HoReCa, 
+B2B-дистр
+ибьюторы 
+Профессион
+альная 
+репутация, 
+стабильност
+ь, доверие 
+поваров 
+Цена, 
+импортная 
+зависимос
+ть 
+Высокая 
+Bonfesto 
+Беларусь 
+Средн
+ий 
+Розница, 
+HoReCa, 
+импортные 
+лавки, 
+дистрибью
+торы 
+Цена/качест
+во, 
+понятный 
+СНГ-профил
+ь, 
+универсальн
+ость 
+Меньше 
+premium-о
+реола, 
+чем у 
+Hochland 
+Высокая 
+Don Milko 
+Узбекиста
+н 
+Средн
+ий / 
+эконо
+м 
+Локальная 
+розница, 
+B2B, 
+wholesale 
+Локальное 
+происхожде
+ние, цена, 
+доступность 
+Требует 
+проверки 
+стабильно
+сти для 
+HoReCa 
+Средняя 
+Локальны
+е 
+производ
+ители 
+cream 
+cheese 
+Узбекиста
+н 
+Эконо
+м / 
+средн
+ий 
+Локальный 
+wholesale, 
+рынки, 
+HoReCa 
+Цена, 
+свежесть, 
+быстрая 
+поставка 
+Нестабиль
+ность 
+качества, 
+слабый 
+бренд, 
+ограничен
+ная 
+техподдер
+жка 
+Средняя 
+
+Российск
+ие 
+бренды 
+cream 
+cheese 
+Россия 
+Средн
+ий 
+Дистрибью
+торы, 
+HoReCa, 
+розница 
+Логистика, 
+язык, 
+привычный 
+вкус, цена 
+Валютные
+/политиче
+ские 
+риски, 
+конкуренц
+ия внутри 
+СНГ 
+Высокая 
+Private 
+label 
+сетей 
+Узбекиста
+н/импорт 
+Эконо
+м 
+Modern 
+trade 
+Цена, 
+контроль 
+полки 
+Слабая 
+B2B-релев
+антность 
+Средняя 
+Премиал
+ьные 
+импортны
+е бренды 
+ЕС/Турция
+/Финлянди
+я 
+Прем
+иум 
+HoReCa, 
+retail, 
+specialty 
+Качество, 
+имидж 
+Цена, 
+логистика 
+Низко-сред
+няя 
+ 
+8. Развитие кухонь и 
+гастрономических трендов 
+Направление 
+Динамика 
+Влияние на cream cheese 
+Японская кухня 
+Высокий рост через 
+delivery 
+Максимальный драйвер: роллы 
+Philadelphia, запечённые роллы 
+Корейская кухня 
+Культурно сильная, 
+городская 
+Вторичный драйвер: fusion, bakery, street 
+food 
+Европейская 
+кухня 
+Растёт в городах 
+Чизкейки, соусы, pasta, breakfast 
+Американская 
+кухня 
+Растёт через 
+QSR/delivery 
+Сэндвичи, чизкейки, breakfast, bakery 
+Fusion 
+Высокий потенциал 
+Локальные блюда с современной 
+сливочной текстурой 
+Brunch culture 
+Формируется 
+Тосты, бейглы, завтраки, намазки 
+Specialty coffee 
+Растёт в Ташкенте 
+Десерты, чизкейки, кремы 
+Bakery culture 
+Высокий потенциал 
+Начинки, кремы, слоёная выпечка 
+Dessert culture 
+Высокий потенциал 
+Cream cheese frosting, cheesecakes 
+Healthy food 
+Нишевый рост 
+Clean label, натуральность, белковость 
+
+Premium fast 
+casual 
+Растёт 
+Стандартизированные ингредиенты, 
+delivery-stable меню 
+Convenience 
+food 
+Растёт 
+RTE-сэндвичи, готовые завтраки, 
+полуфабрикаты 
+Максимальный спрос создают: суши, кондитерка, bakery, кофейни, casual dining, 
+delivery kitchens. 
+ 
+9. HoReCa и food service 
+9.1. Структура спроса 
+Узбекистанский food service пока фрагментирован: много малых кафе и ресторанов, но 
+быстро растут сети, delivery-платформы, международные QSR и современные 
+торговые центры. USDA прямо указывает, что small eateries dominate, но 
+международные сети расширяются, отражая рост спроса и открытость к иностранным 
+инвестициям. 
+Профессиональный творожный сыр должен продаваться не как “сыр”, а как 
+технологический ингредиент для стабильной экономики кухни. 
+9.2. Food service дистрибьюторы 
+Ключевой путь входа — через локального дистрибьютора. Balton Trading Asia заявляет 
+31 год опыта, 55 тыс. м² складов, каналы traditional stores, supermarkets, HoReCa, open 
+markets, gas stations, pharmacies, corporate clients, а также поддержку различных 
+температурных режимов. 
+RDB Pro работает как поставщик продуктов питания для HoReCa; в категории cheese у 
+него представлены моцарелла, плавленые сыры, сулугуни и другие сырные позиции. 
+Bizkim показывает наличие B2B-каталога и wholesale-предложений по cream cheese, 
+включая Hochland Cremette Professional и локальные позиции. 
+Вывод: вход без дистрибьютора нерационален. Нужен партнёр с cold chain, 
+HoReCa-контактами и региональной доставкой. 
+ 
+10. Экономический анализ 
+
+10.1. Импорт и зависимость 
+Узбекистан импортировал сыров и творожных продуктов группы 0406 на $36 млн в 
+2023 году, рост +39% к 2022 году. В структуре: 040690 — $13,2 млн, 040630 processed 
+cheese — $12,1 млн, 040610 fresh cheese/curd — $11,1 млн. 
+2024 год, по данным OEC, показывает дальнейший рост: импорт cheese в Узбекистан 
+— $43,6 млн. Это нужно проверять через платные таможенные базы перед запуском, 
+но направление роста подтверждается. 
+10.2. Таможенные условия 
+По данным Market Access Map, для HS 040610 в Узбекистане указан MFN import duty 
+10%. Однако в Узбекистане действуют временные меры по нулевой пошлине на 
+социально значимые товары, включая cheeses and curds, продлённые до 2027 года. 
+Вывод: перед поставкой нужно проверить актуальный режим по конкретному HS-коду, 
+стране происхождения, сертификату происхождения и статусу товара. Нельзя строить 
+финальную цену только на общем MFN-тарифе. 
+10.3. VAT и платежи 
+США Trade.gov указывает, что VAT в Узбекистане с 2023 года снижен до 12%, а также 
+применяются таможенные сборы, зависящие от стоимости и режима ввоза. 
+10.4. Ценовая логика B2B 
+Для профессионального cream cheese в Узбекистане будут существовать четыре 
+ценовых слоя: 
+Слой 
+Тип товара 
+Роль 
+Эконом 
+Локальный cream cheese / сырный 
+продукт 
+Суши-доставка, недорогие кафе, 
+price-driven клиенты 
+Средний 
+РФ/Беларусь/локальные сильные 
+бренды 
+Основной объём HoReCa 
+Средний
++ 
+Hochland/профессиональные 
+импортные бренды 
+Сети, кондитерки, стабильные 
+рестораны 
+Премиум 
+ЕС/Турция/специализированный 
+импорт 
+Отели, премиальные кофейни, 
+кондитерские 
+Новый бренд должен заходить не в “самый дешёвый” слой, а в средний/средний+: 
+дешевле премиальных импортных игроков, но технологичнее локальных аналогов. 
+
+ 
+11. Барьеры входа 
+Барьер 
+Уровень 
+Суть 
+Цена 
+Высокий 
+Рынок чувствителен; локальные и 
+СНГ-поставщики давят ценой 
+Холодовая цепь 
+Высокий 
+USDA отмечает limited cold chain и высокие 
+логистические издержки вне городов 
+Сертификация 
+Средне-вы
+сокий 
+Нужны санитарные/ветеринарные 
+документы, соответствие маркировке и 
+нормам 
+Halal 
+Высокий 
+Для доверия и широкого принятия продукта 
+halal обязателен 
+Дистрибьюторская 
+зависимость 
+Высокий 
+Без локального партнёра доступ к HoReCa 
+и регионам слабый 
+Локальная маркировка 
+Средний 
+Trade.gov указывает требования к 
+маркировке на узбекском для ряда 
+consumer goods 
+Конкуренция 
+Hochland/Bonfesto 
+Средний 
+Категория уже знакома профессионалам 
+Валютные риски 
+Средний 
+Импортная цена зависит от курса, 
+инфляции, логистики 
+Образовательный 
+барьер 
+Средний 
+Нужны техкарты, обучение поваров и 
+кондитеров 
+Нерегулярность качества 
+у клиентов 
+Средний 
+Малые кафе часто выбирают цену, а не 
+технологические свойства 
+ 
+12. Возможности для бренда 
+12.1. Потенциал 
+Итоговая оценка: высокий / стратегический для Центральной Азии. 
+
+Причина: Узбекистан может стать не только рынком продаж, но и тестовой площадкой 
+для всей Центральной Азии. Страна большая, молодая, урбанизирующаяся, с 
+растущей доставкой, food service и modern retail. 
+12.2. Наиболее интересные сегменты 
+1.​ Суши и роллы​
+ Самый быстрый вход. Нужна плотность, пластичность, стабильность, упаковка 
+2–2,5 кг и конкурентная цена. 
+2.​ Кондитерка и чизкейки​
+ Самый маржинальный B2B-сегмент. Нужна взбиваемость, стабильность крема, 
+отсутствие крупинок, натуральный вкус. 
+3.​ Bakery / пекарни / кофейни​
+ Самый перспективный для роста. Нужны начинки, кремы, намазки, соусы, 
+десертные решения. 
+4.​ Dark kitchens / delivery kitchens​
+ Быстрый объём, но высокая ценовая чувствительность. 
+5.​ Food production / фабрики-кухни​
+ Потенциал есть, но требует технических тестов, стабильного supply и крупных 
+упаковок. 
+ 
+13. Рекомендуемые SKU 
+SKU 
+Упаковка 
+Сегмент 
+Роль 
+Cream cheese 
+Classic 60–65% 
+2–2,5 кг 
+Суши, HoReCa 
+Базовый B2B-продукт 
+Cream cheese 
+Professional Dense 
+2–2,5 кг / 5 кг 
+Суши 
+Плотный продукт для 
+роллов 
+Cream cheese 
+Confectionery 
+2–2,5 кг 
+Кондитерка 
+Взбиваемость, 
+стабильность крема 
+Cream cheese 
+Bakery Thermo 
+2–2,5 кг / 5 кг 
+Выпечка 
+Начинки, запекание, 
+термостабильность 
+Cream cheese 
+Sauce / Extra Soft 
+2 кг 
+Кафе, casual dining 
+Соусы, паста, горячие 
+блюда 
+Retail cup 
+140–200 г 
+Modern trade 
+Вторичный канал после 
+B2B 
+
+Retail 400–500 г 
+Modern trade / 
+home baking 
+Для домашних 
+десертов, 
+чизкейков 
+ 
+Главный запуск: не retail cup. Главный запуск: 2–2,5 кг Professional. 
+ 
+14. Рекомендованная стратегия входа 
+Этап 1. B2B-пилот через дистрибьютора 
+Цель: проверить спрос в Ташкенте. 
+Каналы: 
+●​ HoReCa-дистрибьютор; 
+●​ суши-сети; 
+●​ кофейни; 
+●​ кондитерские; 
+●​ пекарни; 
+●​ dark kitchens; 
+●​ отели и рестораны при ТЦ. 
+Пилотный ассортимент: 
+1.​ Classic Professional 2,25 кг. 
+2.​ Dense Sushi 2,25 кг. 
+3.​ Confectionery 2,25 кг. 
+4.​ Bakery Thermo 2,25 кг. 
+Этап 2. Технологическое продвижение 
+Продавать нужно не коробку сыра, а стабильный результат кухни. 
+Материалы: 
+●​ техкарты для роллов; 
+●​ техкарты для чизкейка; 
+●​ сравнение выхода крема; 
+●​ тест “не течёт в ролле”; 
+●​ тест “держит форму после взбивания”; 
+●​ калькулятор себестоимости порции; 
+●​ рецептурные карты для кофеен; 
+●​ видео для поваров и кондитеров; 
+
+●​ дегустационные наборы для шефов. 
+Этап 3. Захват сегмента sushi 
+Суши — самый быстрый путь к объёму. Критерии продаж: 
+●​ цена за 1 ролл; 
+●​ стабильность нарезки; 
+●​ плотность; 
+●​ нейтральный сливочный вкус; 
+●​ отсутствие кислого профиля; 
+●​ halal; 
+●​ регулярная поставка. 
+Этап 4. Кондитерка и bakery 
+Здесь выше маржинальность и сильнее ценность качества. Ключевые аргументы: 
+●​ взбиваемость; 
+●​ стабильность крема; 
+●​ отсутствие расслоения; 
+●​ чистый вкус; 
+●​ универсальность; 
+●​ меньше списаний; 
+●​ прогнозируемый результат. 
+Этап 5. Modern trade 
+Только после B2B-валидации. В рознице нужно выводить продукт не как “ещё один 
+сыр”, а как: 
+●​ сыр для чизкейков; 
+●​ сыр для роллов дома; 
+●​ сыр для завтраков; 
+●​ сыр для десертов; 
+●​ натуральный сливочный продукт. 
+ 
+15. SWOT 
+Strengths 
+Weaknesses 
+Растущий рынок, молодое население, 
+активная доставка 
+Высокая ценовая чувствительность 
+
+Сильная культура молочных густых 
+продуктов 
+Cream cheese не является 
+традиционным сыром 
+Быстрый рост HoReCa и international cuisine Холодовая цепь неравномерна 
+Импорт сыров растёт 
+Конкуренция РФ/Беларусь/локальные 
+бренды 
+Есть понятные сегменты: суши, bakery, 
+кофейни 
+Требуется обучение рынка 
+ 
+Opportunities 
+Threats 
+Стать B2B-стандартом для суши и 
+кондитерки 
+Локальные производители могут 
+демпинговать 
+Создать профессиональную академию 
+cream cheese 
+Hochland/Bonfesto уже знакомы рынку 
+Войти через дистрибьютора и сети 
+delivery kitchens 
+Валютные колебания съедают маржу 
+Развить private label для 
+сетей/дистрибьюторов 
+Регуляторные изменения и импортные 
+процедуры 
+Использовать halal как доверительный 
+стандарт 
+Нарушение холодовой цепи ухудшит 
+продукт 
+ 
+16. 3 главных драйвера роста на 3–5 
+лет 
+1. Delivery и dark kitchens 
+Uzum Tezkor, Yandex Eats, Express24 и похожие платформы масштабируют кухни, 
+которым нужны стабильные ингредиенты. Рост доставки увеличивает спрос на роллы, 
+пиццу, десерты, сэндвичи, завтраки и готовую еду. 
+2. Международные кухни 
+USDA фиксирует рост спроса на international cuisine ingredients, включая Western, Asian 
+и Middle Eastern cuisines. Это напрямую поддерживает cream cheese как ингредиент 
+для японской, европейской, американской и fusion-кухни. 
+
+3. Modern retail + городская молодая аудитория 
+Food retail растёт, modern chains расширяются, e-commerce усиливается, молодые 
+городские потребители ищут удобные, качественные и новые продукты. 
+ 
+17. 4 главных риска 
+1. Цена 
+Если продукт будет дороже Hochland/Bonfesto без очевидного технологического 
+преимущества, вход провалится. 
+2. Холодовая цепь 
+Нестабильная логистика может испортить продукт и репутацию. USDA прямо отмечает 
+ограниченную cold chain и высокие логистические издержки вне городов. 
+3. Дистрибьюторская зависимость 
+Плохой партнёр заблокирует рынок: не те клиенты, слабая доставка, отсутствие 
+техподдержки, неправильное хранение. 
+4. Ошибка позиционирования 
+Позиционирование “премиальный европейский сыр” слишком узкое. Нужна формула: 
+профессиональный стабильный творожный сыр для кухни, роллов, кремов и 
+выпечки. 
+ 
+18. Рекомендации по локализации 
+продукта 
+Направление 
+Рекомендация 
+Halal 
+Обязательно получить и вынести на упаковку 
+Язык 
+Узбекский + русский 
+
+Упаковка 
+2–2,5 кг как основной B2B-формат 
+Температура 
+хранения 
+Крупно указать +2…+6 °C 
+Вкус 
+Сливочный, мягкий, без выраженной кислоты 
+Текстура 
+Плотная версия для суши, более мягкая для соусов 
+Маркетинг 
+Не “сыр для гурманов”, а “стабильный ингредиент для 
+профессиональной кухни” 
+Техподдержка 
+Рецептуры, тесты, мастер-классы, обучение менеджеров 
+дистрибьютора 
+Цена 
+Средний/средний+ сегмент 
+Ассортимент 
+Не больше 3–4 SKU на старте 
+ 
+19. B2B-продажи: рабочая модель 
+19.1. ICP — идеальный клиент 
+Клиент 
+Критерий 
+Суши-сеть 
+3+ точки или высокий delivery-оборот 
+Кофейня 
+Есть десерты/завтраки/сэндвичи 
+Кондитерская 
+Делает чизкейки, кремы, торты 
+Bakery 
+Делает выпечку с начинками 
+Dark kitchen 
+Работает через 
+Uzum/Yandex/Express24 
+Отель/рестора
+н 
+Имеет breakfast/dessert menu 
+Производство 
+Делает RTE, десерты, полуфабрикаты 
+19.2. Коммерческий аргумент 
+Не продавать “вкусный сыр”. Продавать: 
+1.​ Снижение списаний. 
+2.​ Стабильный результат. 
+
+3.​ Предсказуемую себестоимость. 
+4.​ Одинаковую текстуру каждый день. 
+5.​ Меньше проблем у повара. 
+6.​ Больше выход крема/порций. 
+7.​ Универсальность в меню. 
+19.3. Скрипт входа 
+Формула переговоров: 
+1.​ Какие блюда делаете с cream cheese. 
+2.​ Что сейчас не устраивает: цена, текучесть, вкус, перебои, хранение. 
+3.​ Дать тестовый образец. 
+4.​ Провести тест в их рецептуре. 
+5.​ Посчитать себестоимость блюда. 
+6.​ Закрепить SKU под меню. 
+7.​ Зафиксировать ежемесячный объём. 
+8.​ Дать обучение персоналу. 
+ 
+20. Рекомендации по дистрибуции 
+Приоритетные партнёры 
+1.​ HoReCa-дистрибьюторы с холодовой цепью. 
+2.​ FMCG-дистрибьюторы с national coverage. 
+3.​ Поставщики для суши и ресторанов. 
+4.​ B2B-маркетплейсы и каталоги. 
+5.​ Modern retail — на втором этапе. 
+Balton Trading Asia интересен как крупный FMCG-дистрибьютор с HoReCa-каналом, 55 
+тыс. м² складов и поддержкой разных температурных режимов. 
+RDB Pro интересен как food service supplier, уже работающий с сырной категорией. 
+Bizkim интересен как B2B-площадка, где уже видны предложения cream cheese и 
+Hochland Cremette Professional. 
+ 
+21. Пилотный запуск 
+
+География 
+1.​ Ташкент. 
+2.​ Самарканд. 
+3.​ Бухара. 
+4.​ Фергана. 
+5.​ Наманган / Андижан — после проверки логистики. 
+Срок 
+90 дней. 
+Цели пилота 
+Метрика 
+Цель 
+Подключённые B2B-клиенты 
+30–50 
+Повторная закупка 
+50%+ 
+Суши-клиенты 
+10–15 
+Кондитерки/кофейни 
+10–15 
+Дистрибьюторы 
+1–2 
+SKU в активной продаже 
+3 
+Возвраты/претензии 
+&lt;3% 
+Тесты рецептур 
+50+ 
+План на 90 дней 
+Дни 1–15 
+●​ Проверить HS-код, сертификаты, halal, маркировку. 
+●​ Выбрать 1–2 дистрибьютора. 
+●​ Подготовить прайс, образцы, техкарты. 
+●​ Подготовить B2B-презентацию на русском и узбекском. 
+Дни 16–45 
+●​ Провести тесты у суши-сетей, кофеен, кондитерок. 
+●​ Собрать обратную связь по плотности, вкусу, цене, упаковке. 
+●​ Сделать сравнительные тесты против Hochland/Bonfesto/локального продукта. 
+
+Дни 46–75 
+●​ Закрепить первых регулярных клиентов. 
+●​ Запустить мастер-классы для поваров и кондитеров. 
+●​ Настроить регулярную поставку. 
+Дни 76–90 
+●​ Пересчитать цену. 
+●​ Убрать слабые SKU. 
+●​ Масштабировать на регионы. 
+●​ Подготовить modern trade retail SKU, если B2B-повторные закупки 
+подтверждены. 
+ 
+22. Финальные выводы по 
+обязательным пунктам 
+1. Наиболее перспективная страна для входа 
+В рамках текущего исследования страна одна: Узбекистан. Оценка: высокий 
+потенциал / стратегический рынок Центральной Азии. 
+2. Наиболее перспективные сегменты 
+1.​ Суши и роллы. 
+2.​ Кондитерка. 
+3.​ Bakery. 
+4.​ Кофейни. 
+5.​ Dark kitchens. 
+6.​ Casual dining. 
+7.​ Food production. 
+3. Наиболее перспективные SKU 
+1.​ Cream Cheese Professional Classic 2,25 кг. 
+2.​ Cream Cheese Sushi Dense 2,25 кг. 
+3.​ Cream Cheese Confectionery 2,25 кг. 
+4.​ Cream Cheese Bakery Thermo 2,25 кг. 
+5.​ Cream Cheese Extra Soft / Sauce 2 кг. 
+
+4. Наиболее перспективные каналы продаж 
+1.​ HoReCa-дистрибьютор. 
+2.​ Суши-сети. 
+3.​ Кондитерские производства. 
+4.​ Кофейни и пекарни. 
+5.​ Dark kitchens. 
+6.​ B2B-каталоги. 
+7.​ Modern trade — позже. 
+5. Наиболее перспективные партнёрства 
+1.​ Food service distributor. 
+2.​ Крупные суши-сети. 
+3.​ Кофейные сети. 
+4.​ Пекарни и кондитерские. 
+5.​ Delivery kitchens. 
+6.​ Профессиональные школы кондитеров/поваров. 
+7.​ Modern retail для второго этапа. 
+6. Локализация продукта 
+●​ Halal. 
+●​ Русский + узбекский язык. 
+●​ Упаковка 2–2,5 кг. 
+●​ Плотная текстура для суши. 
+●​ Отдельная кондитерская версия. 
+●​ Простая технологическая коммуникация. 
+●​ Рецептуры под локальные блюда и fusion. 
+7. Маркетинговое позиционирование 
+Профессиональный творожный сыр для стабильного результата в роллах, 
+кремах, чизкейках, выпечке и соусах. 
+Не использовать слабое позиционирование “натуральный вкусный сыр”. Оно не 
+продаёт B2B. B2B покупает стабильность, выход, себестоимость, отсутствие проблем. 
+8. B2B-продажи 
+Продажи строить через тесты на кухне, дегустацию, техкарты и расчёт себестоимости. 
+Менеджер должен продавать не продукт, а решение конкретной боли: течёт в роллах, 
+не держит крем, дорого, нестабильно, перебои поставок. 
+
+9. Дистрибуция 
+Начинать через Ташкент и одного сильного cold-chain партнёра. Не распыляться на 
+всю страну до проверки повторных закупок. 
+10. Пилотные продажи 
+Запускать 90-дневный пилот в Ташкенте с 3 SKU, 30–50 B2B-клиентами, тестами 
+против текущих продуктов и обязательным сбором данных по повторной закупке. 
+ 
+</pre></details><details class='appendix'><summary>Кыргызстан — полный текст исследования</summary><pre>Исследование рынка Кыргызстан 
+профессионального творожного сыра:  
+Основание: загруженное ТЗ на исследование рынка профессионального творожного 
+сыра в Кыргызстане. 
+0. Короткий вывод 
+Потенциал рынка: средне-высокий. Кыргызстан меньше Узбекистана по населению 
+и объёму HoReCa, но для B2B-творожного сыра рынок интересен: есть сильная 
+молочная культура, импорт свежих сыров растёт, Бишкек концентрирует modern trade, 
+delivery, суши, кофейни, кондитерские и международные форматы питания. 
+Главная стратегия входа: не массовая розница, а Бишкек → HoReCa → 
+суши/роллы → кондитерка → кофейни → bakery → затем Ош и Иссык-Куль. 
+Главная рыночная особенность: Кыргызстан сам производит много молочной 
+продукции, но профессиональный cream cheese остаётся зависимым от импорта, 
+особенно из Беларуси и России. В 2024 году импорт свежего сыра и творога HS 040610 
+составил $4,26 млн / 1 250,5 т, из них Беларусь дала $2,65 млн, Россия — $1,16 млн, 
+Казахстан — $409 тыс. 
+Стратегическая оценка: Кыргызстан — не рынок быстрого большого объёма, а рынок 
+точечного B2B-захвата. Победит не тот, кто просто привезёт сыр, а тот, кто даст 
+стабильный продукт, понятную цену, халяль, техкарты, обучение и нормальную 
+холодовую логистику. 
+ 
+1. Country scorecard 
+Параметр 
+Оценка 
+Вывод 
+Общий потенциал 
+7/10 
+Рынок меньше Узбекистана, но подходит 
+для пилота в Центральной Азии 
+Потенциал HoReCa 
+7/10 
+Сегмент сконцентрирован в Бишкеке, Оше и 
+туристических зонах 
+
+Потенциал суши/роллов 
+8/10 
+Суши уже представлены в delivery и 
+ресторанах Бишкека 
+Потенциал 
+bakery/confectionery 
+7/10 
+Сильная хлебная культура + растущие 
+кофейни и кондитерские 
+Потенциал 
+кофеен/brunch 
+6/10 
+Сегмент развивается, но остаётся 
+городским и нишевым 
+Зависимость от импорта 
+cream cheese 
+8/10 
+В fresh cheese/curd доминируют Беларусь и 
+Россия 
+Локальное молочное 
+производство 
+8/10 
+Есть сильные молочные предприятия, но 
+cream cheese professional не выглядит 
+зрелой категорией 
+Ценовая 
+чувствительность 
+9/10 
+Рынок сильно price-sensitive 
+Барьеры входа 
+7/10 
+EAEU, сертификация, холодовая цепь, 
+дистрибьюторская зависимость 
+Горизонт роста 3–5 лет 
+средне-вы
+сокий 
+Рост через delivery, международные кухни, 
+кофейни, modern retail 
+ 
+2. Общий обзор региона 
+2.1. Базовая информация 
+Кыргызстан — рынок около 7,2 млн человек с ВВП $17,48 млрд и ВВП на душу 
+населения $2 420 в 2024 году. Рост ВВП в 2024 году составил 9%, что указывает на 
+
+активную экономическую динамику, но покупательная способность остаётся ниже, чем 
+у Казахстана и части крупных рынков региона. 
+Уровень урбанизации — около 38,17% в 2024 году. Это принципиально: спрос на 
+professional cream cheese будет концентрироваться не по всей стране, а в городских 
+точках — Бишкек, Ош, курортный Иссык-Куль, отдельные сетевые и туристические 
+проекты. 
+IMF прогнозировал замедление роста до 6,8% в 2025 году и около 5,25% в 
+среднесрочном периоде, что означает: рынок растёт, но нельзя строить стратегию 
+только на “все будут богатеть”. Нужна модель, работающая при высокой ценовой 
+чувствительности. 
+ 
+2.2. Modern trade 
+Современная розница развивается, но рынок всё ещё сильно зависит от традиционных 
+магазинов и базаров. Крупнейшая retail-группа — Umai Group, управляющая сетями 
+Globus, Narodny и Dostor; в открытых данных указано около 150 супермаркетов, 
+гипермаркетов и convenience stores. 
+Globus — один из главных каналов проверки розничной категории. В онлайн-каталоге 
+Globus уже представлены творожные сыры Bonfesto, Violette, Kalleh Labneh, 
+Hochland и смежные мягкие сыры. Это подтверждает: категория знакома городскому 
+покупателю, но в основном через розничные форматы 140–400 г, а не через 
+полноценный B2B professional segment. 
+ 
+2.3. Delivery и food service 
+В Бишкеке delivery уже является важным каналом питания. Namba Food 
+позиционируется как сервис доставки еды с более чем 400 кафе и ресторанами, 
+включая пиццу, суши и роллы, десерты и бургеры. 
+Glovo работает в Бишкеке и показывает категории burgers, halal, oriental, fast food, 
+chicken, European, traditional, pizza, laghman, doner, а также отдельную категорию sushi 
+delivery. Это важно: delivery усиливает именно те блюда, где творожный сыр 
+используется как ингредиент — роллы, десерты, сэндвичи, завтраки, пицца/fusion. 
+ 
+3. Культура питания 
+
+3.1. Молочная база 
+Кыргызская кухня исторически построена вокруг мяса, зерна, хлеба и молочных 
+продуктов. Advantour прямо указывает, что кыргызы любят молочные продукты; среди 
+традиционных продуктов — каймак, курут, жуурат, эжигей, сары май, быштак, 
+пышлак. 
+Научная статья о молочных и зерновых кыргызских продуктах выделяет кумыс, айран, 
+чалап, сары май, сүзмө и курут как традиционные молочные продукты, 
+потребляемые в современной кыргызской культуре. 
+Вывод: творожный сыр не противоречит локальной культуре. Кыргызстан понимает 
+густые, кислосливочные и ферментированные молочные текстуры. Но cream cheese 
+нужно продавать не как “новую традицию”, а как профессиональный стабильный 
+ингредиент для современной кухни. 
+ 
+3.2. Хлеб, выпечка, мучная культура 
+Кыргызы традиционно придают большое значение хлебу; в кухне распространены нан, 
+боорсок, жупка, токоч, кемоч. Это создаёт базу для bakery-сегмента: начинки, кремы, 
+намазки, завтраки, слоёная выпечка, десертные изделия. 
+Прямая связка для продукта: 
+Локальная пищевая база 
+Как встроить cream cheese 
+Нан / лепёшки 
+Завтраки, намазки, open sandwich 
+Боорсок 
+Сладкие и солёные дипы 
+Жупка / слоёное тесто 
+Сырные и сладкие начинки 
+Каймак / сүзмө 
+Локальная аналогия по плотности и сливочности 
+Курут / пышлак 
+Мост к понятию свежего сыра 
+
+Чайная культура 
+Десерты, выпечка, чизкейки 
+ 
+3.3. Международные кухни 
+Японская кухня в Бишкеке уже присутствует: Tripadvisor показывает японские и 
+суши-рестораны, включая Zen Sushi &amp; Grill, Sushi Room, Arigato. Sushi Room 
+описывает себя как ресторан японской кухни, работающий на завтраки, обеды, ужины 
+и мероприятия. 
+Для professional cream cheese это ключевой сегмент. В постсоветской модели спроса 
+роллы типа Philadelphia часто становятся главным генератором объёма. Кыргызстан 
+здесь повторяет логику России, Казахстана и Узбекистана, но в меньшем масштабе. 
+Корейская, европейская и американская кухни растут в городском сегменте, но для 
+cream cheese они вторичны. Основной вклад дают не традиционные корейские блюда, 
+а fusion, street food, сладкая bakery, кофейни, бранчи и delivery. 
+ 
+4. Спрос на профессиональный 
+творожный сыр 
+4.1. Сегменты применения 
+Сегмент 
+Потенциал 
+Логика спроса 
+Суши и роллы 
+Очень высокий 
+Главный быстрый B2B-сегмент 
+Кондитерка 
+Высокий 
+Чизкейки, кремы, торты, капкейки 
+Bakery 
+Высокий 
+Начинки, слойки, булочки, тарталетки 
+
+Кофейни 
+Средне-высоки
+й 
+Десерты, завтраки, сэндвичи 
+Breakfast menu 
+Средний 
+Растёт в Бишкеке, но пока не 
+массовый 
+Brunch 
+Средний 
+Нишевый городской формат 
+Casual dining 
+Средне-высоки
+й 
+Соусы, паста, салаты, fusion 
+Dark kitchen 
+Высокий 
+Суши, пицца, десерты, бургеры 
+Ready-to-eat 
+Средний 
+Сэндвичи, роллы, готовые завтраки 
+Food production 
+Средний 
+Требует стабильности, цены, shelf life 
+Industrial production 
+Низко-средний 
+Малый рынок, нужен объём и контракт 
+Catering 
+Средний 
+Банкетные десерты, завтраки, 
+фуршеты 
+ 
+4.2. Самые перспективные блюда 
+Категория 
+Продукты 
+Суши 
+Philadelphia roll, baked rolls, creamy rolls 
+
+Кондитерка Чизкейк, cream cheese frosting, рулеты, торты 
+Bakery 
+Круассаны, слойки, тарталетки, булочки 
+Кофейни 
+Десерты к кофе, тосты, сэндвичи 
+Завтраки 
+Бейглы, open toast, омлеты, намазки 
+Fusion 
+Нан + cream cheese + зелень; боорсок + сладкий крем; соусы к 
+мясу 
+RTE 
+Сэндвичи, лаваш-роллы, готовые завтраки 
+ 
+5. Востребованные свойства продукта 
+Для Кыргызстана ключевая формула: цена + стабильность + halal + срок хранения + 
+холодовая логистика. 
+Свойство 
+Важность 
+Причина 
+Цена 
+Очень 
+высокая 
+Рынок чувствителен к цене, особенно вне 
+премиального Бишкека 
+Плотность 
+Очень 
+высокая 
+Критично для роллов и кондитерки 
+Стабильность 
+Очень 
+высокая 
+HoReCa покупает не вкус, а повторяемый 
+результат 
+
+Текстура 
+Очень 
+высокая 
+Не должен течь, крупиниться, расслаиваться 
+Взбиваемость 
+Высокая 
+Важно для кремов и кондитерки 
+Пластичность 
+Высокая 
+Роллы, намазки, сэндвичи 
+Термостойкость 
+Средне-высо
+кая 
+Выпечка, запечённые роллы, соусы 
+Срок хранения 
+Очень 
+высокая 
+География сложная, холодовая цепь 
+неравномерна 
+Упаковка 2–2,5 кг 
+Очень 
+высокая 
+Основной формат для HoReCa 
+Упаковка 5–10 кг 
+Средняя 
+Только для сетей, фабрик-кухонь и крупных 
+кондитерок 
+Halal 
+Высокая 
+Религиозный и доверительный фактор 
+Clean label 
+Средняя 
+В премиуме важно, в массовом B2B цена 
+сильнее 
+Локальное 
+происхождение 
+Средняя 
+Локальность помогает, но professional 
+segment готов брать импорт 
+ 
+6. Зрелость рынка 
+
+6.1. Стадия рынка 
+Стадия: ранняя профессионализация. 
+Признаки: 
+1.​ Категория творожного сыра известна в рознице. 
+2.​ В HoReCa есть спрос на Cremette/Hochland и аналоги. 
+3.​ Основные объёмы fresh cheese/curd идут из Беларуси, России и Казахстана. 
+4.​ Локальное молочное производство сильное, но professional cream cheese как 
+отдельная технологическая категория ещё не выглядит развитой. 
+5.​ Покупатели HoReCa часто выбирают по цене и доступности, а не по глубокой 
+технологической экспертизе. 
+ 
+6.2. Импортная статистика 
+В 2024 году Кыргызстан импортировал fresh/unripened cheese and curd HS 040610 на 
+$4,264 млн и 1 250,5 т. Беларусь дала 871,8 т, Россия — 267 т, Казахстан — 105,6 т, 
+Монголия — 6 т. Это ближайшая статистическая прокси-категория для творожного 
+сыра, но она шире cream cheese и включает другие свежие сыры и творожные 
+продукты. 
+Processed cheese HS 040630 в 2024 году составил $1,109 млн / 370,7 т, почти весь 
+объём пришёл из России и Беларуси. 
+Cheese nes HS 040690 в 2024 году составил $2,206 млн / 492,6 т, основные 
+поставщики — Беларусь, Россия, Украина, Казахстан и Азербайджан. 
+По данным DairyNews со ссылкой на Нацстаткомитет, за январь–ноябрь 2025 года 
+импорт сыров и творога в Кыргызстан вырос до 10,1 тыс. т / $16,7 млн, а Беларусь 
+обеспечила более 75% поставок. Это уже не только cream cheese, но показатель 
+общего роста сырного импорта. 
+ 
+7. Конкурентная среда 
+7.1. Международные и импортные бренды 
+В рознице Кыргызстана видны Bonfesto, Violette, Hochland, Kalleh Labneh, President, 
+Savushkin и другие бренды мягких/плавленых сыров. Globus показывает Bonfesto 
+Кремчиз 140 г и 400 г, Violette 140 г, Kalleh Labneh 180 г, Hochland творожный 220 г. 
+
+В неформальном B2B/мелкооптовом канале присутствует Hochland Professional 
+Cremette. На Lalafo есть объявление по Cremette Professional 2,2 кг и 10 кг, но такие 
+площадки нужно считать не стабильным источником цен, а индикатором наличия 
+спроса и серого/параллельного мелкооптового канала. 
+ 
+7.2. Локальные молочные производители 
+Belaya Reka — один из сильных локальных молочных игроков. Компания основана в 
+1998 году, занимается сбором, переработкой и экспортом молока, выпускает около 140 
+видов молочной продукции, включая масло, кисломолочные продукты, молоко, 
+йогурты, сыр, айран и другие позиции. 
+Sut Bulak / Dairy Spring работает более 29 лет и производит сыры и молочную 
+продукцию под брендом Dairy Spring. Компания позиционирует себя как производитель 
+качественных сыров и молочных продуктов. 
+DairyNews описывает молочную переработку Кыргызстана как значимую: около 600 
+тыс. т молока перерабатывается ежегодно, производится около 8,5 тыс. т сыра, 
+среди крупных предприятий названы Ak-Sut, Bishkek-Sut, Kant Agribusiness и другие. 
+Эти данные нужно перепроверять перед инвестиционным решением, но они 
+подтверждают: локальная молочная база сильная. 
+ 
+7.3. Таблица конкурентов 
+Бренд / 
+группа 
+Страна 
+Ценов
+ой 
+сегме
+нт 
+Основные 
+каналы 
+Сильные 
+стороны 
+Слабые 
+стороны 
+Угроз
+а 
+Hochland / 
+Cremette 
+Profession
+al 
+Германия/Р
+Ф/междуна
+родный 
+бренд 
+Средн
+ий+ / 
+преми
+ум 
+HoReCa, 
+мелкий 
+опт, 
+кондитеры 
+Репутация, 
+стабильност
+ь, 
+узнаваемост
+ь 
+Цена, 
+импортная 
+зависимость 
+Высо
+кая 
+Bonfesto 
+Беларусь 
+Средн
+ий 
+Розница, 
+HoReCa, 
+Цена/качест
+во, широкая 
+представлен
+ность, 
+Не всегда 
+воспринимае
+тся как 
+профессиона
+Высо
+кая 
+
+дистрибью
+торы 
+СНГ-дистриб
+уция 
+льный 
+премиум 
+Violette 
+Россия 
+Средн
+ий 
+Розница 
+Доступная 
+цена, 
+вкусовые 
+варианты 
+Слабее как 
+B2B 
+professional 
+SKU 
+Сред
+няя 
+Kalleh 
+Labneh 
+Иран/импо
+рт 
+Средн
+ий 
+Розница 
+Близость к 
+soft 
+cheese/labne
+h, понятный 
+продукт 
+Не главный 
+стандарт для 
+роллов и 
+кондитерки 
+Сред
+няя 
+President 
+Франция/м
+еждународ
+ный бренд 
+Средн
+ий+ 
+Розница 
+Узнаваемост
+ь, доверие 
+Больше retail, 
+меньше 
+professional 
+cream cheese 
+Сред
+няя 
+Savushkin 
+Беларусь 
+Средн
+ий 
+Розница/оп
+т 
+Цена, 
+СНГ-логисти
+ка, молочная 
+репутация 
+Требует 
+проверки 
+B2B-линейки 
+Сред
+няя 
+Belaya 
+Reka 
+Кыргызстан Средн
+ий 
+Розница, 
+локальный 
+B2B, 
+экспорт 
+Локальность
+, доверие, 
+молочная 
+база 
+Не очевидна 
+специализац
+ия на 
+professional 
+cream cheese 
+Сред
+няя 
+Sut Bulak / 
+Dairy 
+Spring 
+Кыргызстан Средн
+ий+ 
+Розница, 
+B2B, 
+экспорт 
+Сырная 
+экспертиза, 
+локальное 
+производств
+о 
+Больше 
+hard/semi-har
+d cheese, чем 
+cream cheese 
+Сред
+няя 
+
+Частные 
+локальны
+е 
+производи
+тели 
+Кыргызстан Эконо
+м 
+Рынки, 
+мелкий 
+опт, кафе 
+Цена, 
+свежесть 
+Нестабильно
+сть, слабая 
+стандартизац
+ия 
+Сред
+няя 
+Private 
+label retail 
+Кыргызстан
+/импорт 
+Эконо
+м 
+Modern 
+trade 
+Цена, полка 
+Не 
+B2B-решение 
+Низко
+-сред
+няя 
+ 
+8. Развитие кухонь и 
+гастрономических трендов 
+Направление 
+Динамика 
+Влияние на cream cheese 
+Японская кухня 
+Высокая в Бишкеке Главный драйвер через роллы 
+Корейская кухня 
+Средняя 
+Fusion, молодёжные кафе, street food 
+Европейская кухня 
+Средняя 
+Завтраки, паста, десерты, соусы 
+Американская кухня 
+Средняя 
+Бургеры, сэндвичи, чизкейки, QSR 
+Fusion cuisine 
+Средне-высокая 
+Локальные блюда + сливочные соусы 
+Brunch culture 
+Низко-средняя 
+Бишкек, премиальные кафе 
+Specialty coffee 
+Средняя 
+Десерты, чизкейки, завтраки 
+
+Bakery culture 
+Высокая 
+Сильная хлебная база + modern 
+bakery 
+Dessert culture 
+Высокая 
+Чизкейки, торты, кремы 
+Healthy food 
+Низко-средняя 
+Clean label, protein, натуральность 
+Premium fast casual 
+Средняя 
+Сети, ТЦ, delivery 
+Convenience food 
+Средняя 
+RTE, сэндвичи, готовые завтраки 
+Максимальный спрос создадут суши, кондитерка, кофейни, bakery, dark kitchens. 
+ 
+9. HoReCa и food service 
+9.1. Структура HoReCa 
+HoReCa в Кыргызстане концентрируется в Бишкеке. Ош — второй уровень. Иссык-Куль 
+важен как сезонная туристическая зона: отели, кафе, курортные рестораны, летняя 
+загрузка, банкетные форматы. 
+USDA по Центральной Азии указывает, что HRI-сектор снабжается дистрибьюторами, 
+которые закупают локальные и импортные продукты; high-end рестораны и отели 
+активно ищут импортные продукты ради стабильности и качества, тогда как QSR и 
+столовые чаще используют локальные продукты. Эта логика полностью применима к 
+Кыргызстану. 
+ 
+9.2. Дистрибуция 
+Кыргызстан входит в ЕАЭС, поэтому требования по многим импортным процедурам 
+гармонизированы с Россией, Беларусью, Казахстаном и Арменией. USDA отдельно 
+указывает, что Кыргызстан и Казахстан как члены ЕАЭС имеют гармонизированные 
+требования к импорту. 
+
+Сильный дистрибьютор критичен. Key Distribution Company указывает наличие складов 
+на 1000 м², 23 грузовиков, включая рефрижераторы, 150 сотрудников, головной офис в 
+Бишкеке и филиалы в пяти городах Кыргызстана. Это пример инфраструктуры, 
+которая нужна для молочного chilled-продукта. 
+Alliance Product позиционируется как один из ведущих FMCG-дистрибьюторов в 
+Кыргызстане с покрытием всей территории страны. Для professional cream cheese 
+такой партнёр может быть полезен только при наличии chilled-возможностей и 
+HoReCa-команды. 
+ 
+10. Экономический анализ 
+10.1. Уровень цен 
+Розничный online-каталог Globus показывает Bonfesto Кремчиз 140 г по 129–169 сом, 
+Bonfesto 400 г по 299–453 сом, Violette 140 г по 109–129 сом, Hochland 220 г по 276 
+сом. Это розничные цены, не закупочные цены HoReCa, но они задают ценовой 
+коридор восприятия категории. 
+На Lalafo встречается предложение Hochland Professional Cremette 2,2 кг и 10 кг, а 2,2 
+кг указан по 5 350 KGS. Это нельзя считать надёжной рыночной ценой, но можно 
+использовать как сигнал: профессиональная фасовка в стране присутствует, а 
+B2B-спрос существует. 
+ 
+10.2. Ценовые сегменты 
+Сегмент 
+Продукт 
+Покупатель 
+Эконом 
+Локальный мягкий сыр / сырный 
+продукт 
+Малые кафе, недорогие суши, 
+рынки 
+Средний 
+Беларусь/Россия/Казахстан 
+Основная HoReCa 
+Средний
++ 
+Hochland/Cremette/стабильные 
+professional SKU 
+Суши-сети, кондитерки, кофейни 
+
+Премиум 
+ЕС/специализированный импорт 
+Отели, премиальные рестораны, 
+кондитерские 
+Правильное место для нового бренда: средний/средний+. В экономе придётся 
+конкурировать с локальным продуктом и Беларусью. В премиуме объём слишком мал. 
+ 
+10.3. Логистика 
+Кыргызстан — горная и внутриконтинентальная страна. USDA по Центральной Азии 
+подчёркивает, что регион landlocked, а логистика осложняется географией, 
+инфраструктурой и геополитикой; для дорогих скоропортящихся продуктов иногда 
+требуется авиа, но для молочного B2B-сыра это экономически тяжело. 
+Практический вывод: поставка должна идти через ЕАЭС-контур или через сильного 
+регионального импортёра. Для российского, белорусского или казахстанского продукта 
+логистика проще, чем для ЕС/Турции/дальних поставщиков. 
+ 
+11. Барьеры входа 
+Барьер 
+Уровень 
+Суть 
+Цена 
+Очень 
+высокий 
+Кыргызстан — price-sensitive рынок 
+Конкуренция Беларуси 
+Высокий 
+Беларусь доминирует в fresh 
+cheese/curd импорте 
+Конкуренция России 
+Высокий 
+Россия сильна в processed cheese и 
+свежих сырах 
+Холодовая цепь 
+Высокий 
+Бишкек проще, регионы сложнее 
+
+Сертификация ЕАЭС 
+Высокий 
+Нужны документы соответствия, EAC, 
+техрегламенты 
+Halal 
+Средне-высо
+кий 
+Важно для доверия и массового 
+принятия 
+Дистрибьюторская 
+зависимость 
+Высокий 
+Без партнёра рынок будет 
+фрагментирован 
+Низкий объём рынка 
+Средний 
+Нельзя ждать объёма Узбекистана или 
+Казахстана 
+Локальные производители 
+Средний 
+Могут давить ценой и свежестью 
+Непрозрачность B2B-цен 
+Средний 
+Много мелкого опта и неформальных 
+каналов 
+ 
+11.1. Регуляторика и маркировка 
+Продукты, продаваемые в Кыргызстане, должны иметь маркировку на русском и/или 
+кыргызском языке; Trade.gov указывает, что маркировка на обоих языках поощряется. 
+Для пищевой продукции в ЕАЭС требуется подтверждение соответствия техническим 
+регламентам и маркировка EAC; профильные сертификационные источники 
+указывают, что food products проходят обязательную EAC Declaration или регистрацию 
+в зависимости от категории. 
+Требования к halal-сертификации в Кыргызстане ужесточаются: Tridge со ссылкой на 
+местные сообщения указывает, что требования к организациям, выдающим 
+halal-сертификаты, будут повышаться. Это означает: халяль нельзя делать 
+формально, нужен проверяемый сертификат. 
+ 
+12. Возможности для бренда 
+
+12.1. Потенциал 
+Оценка: средне-высокий. 
+Кыргызстан не даст большого объёма на старте. Но он может быть удобным рынком 
+для отработки Central Asia B2B-модели: дистрибьютор, HoReCa, суши, кондитерка, 
+кофейни, training kit, техкарты, контроль холодовой цепи. 
+ 
+12.2. Наиболее интересные сегменты 
+1. Суши и роллы 
+Самый быстрый сегмент. Покупатель понимает продукт, знает 
+Cremette/Hochland/Bonfesto, оценивает плотность, цену и стабильность. 
+2. Кондитерские 
+Самый маржинальный сегмент. Нужны взбиваемость, стабильность, чистый вкус, 
+отсутствие расслоения, хороший выход крема. 
+3. Кофейни 
+Сегмент не такой большой, но даёт имидж. Cream cheese нужен для чизкейков, тостов, 
+сэндвичей, рулетов, тарталеток. 
+4. Bakery 
+Хорошая культурная совместимость через хлеб и выпечку. Нужна отдельная версия 
+для начинок и запекания. 
+5. Dark kitchens 
+Могут дать объём, но будут давить цену. Подходят для SKU “Classic professional” и 
+“Sushi dense”. 
+ 
+13. Рекомендуемые SKU 
+SKU 
+Упаковка 
+Сегмент 
+Задача 
+
+Cream Cheese 
+Professional Classic 
+65% 
+2–2,5 кг 
+HoReCa 
+универсальный 
+Базовый вход 
+Cream Cheese Sushi 
+Dense 
+2–2,5 кг 
+Суши/роллы 
+Плотность, нарезка, 
+не течёт 
+Cream Cheese 
+Confectionery 
+2–2,5 кг 
+Кондитеры 
+Взбиваемость, 
+стабильность крема 
+Cream Cheese Bakery 
+Thermo 
+2–2,5 кг / 5 кг 
+Пекарни 
+Начинки, запекание 
+Cream Cheese Extra 
+Soft / Sauce 
+2 кг 
+Кафе, рестораны 
+Соусы, горячие 
+блюда 
+Retail 140–180 г 
+Розница 
+Второй этап 
+Полка, узнаваемость 
+Retail 400–500 г 
+Розница/home 
+baking 
+Второй этап 
+Чизкейк дома, 
+десерты 
+Главный стартовый SKU: 2–2,5 кг Professional Classic.​
+ Второй обязательный SKU: Sushi Dense.​
+ Третий SKU: Confectionery. 
+ 
+14. Стратегия входа 
+Этап 1. Бишкек, 90 дней 
+Цель: проверить повторные закупки, а не просто раздать образцы. 
+Каналы: 
+
+Канал 
+Цель 
+HoReCa-дистрибьютор Быстрый доступ к клиентам 
+Суши-сети 
+Объём 
+Кондитерки 
+Маржа 
+Кофейни 
+Имидж и регулярность 
+Пекарни 
+Масштабирование 
+Dark kitchens 
+Быстрый тест цены 
+ 
+Этап 2. Тесты против конкурентов 
+Нужны не презентации, а кухонные тесты: 
+1.​ Ролл после 30 минут. 
+2.​ Ролл после доставки. 
+3.​ Крем после взбивания. 
+4.​ Чизкейк после охлаждения. 
+5.​ Начинка после запекания. 
+6.​ Себестоимость на порцию. 
+7.​ Выход крема с 1 кг. 
+8.​ Стабильность после 7–10 дней хранения. 
+ 
+Этап 3. Ош и Иссык-Куль 
+Ош — второй городской рынок.​
+ Иссык-Куль — сезонный рынок: отели, кафе, банкетные площадки, туристическая 
+зона. 
+
+Туда нельзя идти до проверки cold chain. Один испорченный chilled-продукт уничтожает 
+доверие быстрее, чем любая реклама его строит. 
+ 
+15. SWOT 
+Strengths 
+Weaknesses 
+Сильная молочная культура 
+Малый размер рынка 
+Рост импорта fresh cheese/curd 
+Высокая ценовая чувствительность 
+Наличие delivery и sushi-сегмента Концентрация спроса в Бишкеке 
+Развитие modern trade 
+Слабая прозрачность B2B-каналов 
+Возможность ЕАЭС-логистики 
+Сильная конкуренция Беларуси и 
+России 
+ 
+Opportunities 
+Threats 
+Стать стандартом для суши и кондитерки 
+Демпинг локальных и белорусских 
+игроков 
+Запустить B2B-академию для поваров 
+Нарушение холодовой цепи 
+Войти через дистрибьютора с refrigerated 
+trucks 
+Низкая готовность платить за premium 
+
+Сделать private label для 
+дистрибьютора/сети 
+Серые поставки Cremette/Hochland 
+Использовать halal как доверительный 
+фактор 
+Нестабильность цен и валюты 
+ 
+16. ТОП-3 драйвера роста на 3–5 лет 
+1. Delivery 
+Namba Food и Glovo уже формируют привычку к заказу суши, пиццы, десертов, 
+бургеров и готовой еды. Это напрямую увеличивает спрос на стабильные 
+chilled-ингредиенты. 
+2. Импорт fresh cheese/curd 
+Импорт HS 040610 уже достиг $4,26 млн в 2024 году, а данные за 2025 год показывают 
+рост общей категории сыров и творога. Это подтверждает: рынок не закрыт локальным 
+производством, особенно в сегменте свежих сыров. 
+3. Modern trade и городская еда 
+Umai Group/Globus/Narodny/Dostor формируют современную полку, а городские кафе и 
+кофейни расширяют набор блюд. Для cream cheese это создаёт двойную траекторию: 
+сначала B2B, затем retail. 
+ 
+17. ТОП-4 риска 
+1. Слишком высокая цена 
+Рынок не простит “премиальность ради премиальности”. Премиальный сегмент 
+маленький. Основной B2B-клиент считает себестоимость блюда. 
+2. Конкуренция Беларуси 
+
+Беларусь уже является главным поставщиком fresh cheese/curd в Кыргызстан. 
+Белорусские бренды понятны, доступны и логистически сильны. 
+3. Холодовая цепь 
+Продукт требует +2…+6 °C. Бишкек контролируем. Региональная дистрибуция — риск. 
+4. Ошибка канала 
+Выход сразу в розницу слабее, чем вход через HoReCa. Розница даст видимость, но 
+не даст профессиональной повторяемости закупки. 
+ 
+18. Рекомендации по локализации 
+Направление 
+Решение 
+Язык 
+Русский + кыргызский 
+Сертификация 
+EAC + ветеринарные/санитарные документы 
+Halal 
+Обязательно для доверия 
+Упаковка 
+2–2,5 кг на старте 
+Температура 
+Крупно указать +2…+6 °C 
+Вкус 
+Мягкий сливочный, без резкой кислоты 
+Текстура 
+Отдельно плотная версия для суши 
+
+Коммуникация 
+“Стабильный профессиональный творожный сыр” 
+Продажи 
+Через тесты на кухне 
+Поддержка 
+Техкарты, мастер-классы, калькулятор 
+себестоимости 
+ 
+19. B2B-продажи 
+19.1. Кому продавать первыми 
+Клиент 
+Почему 
+Суши-сети 
+Быстрый объём 
+Суши-доставка 
+Высокая частота заказов 
+Кондитерские 
+Маржинальность 
+Кофейни 
+Регулярные десерты 
+Bakery 
+Начинки и кремы 
+Отели 
+Завтраки, десерты, 
+банкеты 
+Dark kitchens 
+Масштаб через delivery 
+
+HoReCa-дистрибьюторы Доступ к клиентской базе 
+ 
+19.2. Что продавать в аргументации 
+Не “натуральный вкусный сыр”. Это слабая продажа. 
+Продавать: 
+1.​ Не течёт в роллах. 
+2.​ Держит крем. 
+3.​ Даёт стабильный выход. 
+4.​ Снижает списания. 
+5.​ Работает в разных блюдах. 
+6.​ Стабилен от партии к партии. 
+7.​ Считает себестоимость порции. 
+8.​ Имеет halal и EAC. 
+9.​ Поставляется регулярно. 
+10.​Упрощает работу кухни. 
+ 
+20. Пилотный запуск 
+География 
+1.​ Бишкек. 
+2.​ Ош. 
+3.​ Иссык-Куль. 
+4.​ Кара-Балта / Токмок / Кант — только через дистрибьютора. 
+Срок 
+90 дней. 
+Целевые показатели 
+Метрика 
+Цель 
+
+B2B-клиенты в тесте 
+25–40 
+Повторная закупка 
+45%+ 
+Суши-клиенты 
+8–12 
+Кондитерки/кофейни 
+10–15 
+Дистрибьюторы 
+1–2 
+SKU на старте 
+3 
+Претензии по качеству &lt;3% 
+Тесты рецептур 
+40+ 
+ 
+План запуска 
+Дни 1–15 
+●​ Проверить EAC, ветеринарные документы, halal. 
+●​ Подготовить русско-кыргызскую маркировку. 
+●​ Выбрать refrigerated-дистрибьютора. 
+●​ Подготовить 3 SKU: Classic, Sushi Dense, Confectionery. 
+●​ Собрать список 100 B2B-клиентов Бишкека. 
+Дни 16–45 
+●​ Провести кухонные тесты. 
+●​ Сравнить продукт с Hochland/Cremette, Bonfesto, локальными аналогами. 
+●​ Считать себестоимость ролла, чизкейка, крема. 
+●​ Собирать обратную связь по плотности, вкусу, упаковке, цене. 
+
+Дни 46–75 
+●​ Перевести тестовых клиентов в закупку. 
+●​ Дать обучение поварам и кондитерам. 
+●​ Настроить регулярную поставку. 
+●​ Убрать SKU, который не даёт повторной закупки. 
+Дни 76–90 
+●​ Зафиксировать прайс. 
+●​ Подписать дистрибьюторское соглашение. 
+●​ Запустить Ош. 
+●​ Подготовить сезонный тест Иссык-Куля. 
+●​ Принять решение о retail SKU. 
+ 
+21. Финальные выводы 
+1. Наиболее перспективная страна для входа 
+В рамках текущего исследования страна одна — Кыргызстан. Оценка: 
+средне-высокий потенциал. Это не рынок большого мгновенного объёма, а рынок 
+аккуратного B2B-захвата. 
+2. Наиболее перспективные сегменты 
+1.​ Суши и роллы. 
+2.​ Кондитерка. 
+3.​ Кофейни. 
+4.​ Bakery. 
+5.​ Dark kitchens. 
+6.​ Отели и рестораны. 
+7.​ Food production — позже. 
+3. Наиболее перспективные SKU 
+1.​ Cream Cheese Professional Classic 2–2,5 кг. 
+2.​ Cream Cheese Sushi Dense 2–2,5 кг. 
+3.​ Cream Cheese Confectionery 2–2,5 кг. 
+4.​ Cream Cheese Bakery Thermo 2–2,5 кг. 
+5.​ Cream Cheese Extra Soft / Sauce 2 кг. 
+4. Наиболее перспективные каналы продаж 
+
+1.​ HoReCa-дистрибьютор. 
+2.​ Суши-сети. 
+3.​ Кондитерские. 
+4.​ Кофейни. 
+5.​ Пекарни. 
+6.​ Delivery kitchens. 
+7.​ Modern trade — второй этап. 
+5. Наиболее перспективные партнёрства 
+1.​ Chilled/FMCG-дистрибьютор. 
+2.​ Суши-сети Бишкека. 
+3.​ Кондитерские школы и цеха. 
+4.​ Кофейные сети. 
+5.​ Globus/Narodny/Dostor — после B2B-валидации. 
+6.​ Отели Иссык-Куля — сезонный канал. 
+6. Локализация продукта 
+●​ EAC. 
+●​ Halal. 
+●​ Русский + кыргызский. 
+●​ Упаковка 2–2,5 кг. 
+●​ Мягкий сливочный вкус. 
+●​ Плотная текстура для роллов. 
+●​ Отдельная кондитерская версия. 
+●​ Техкарты под роллы, чизкейки, кремы, выпечку. 
+7. Маркетинговое позиционирование 
+Профессиональный творожный сыр для стабильных роллов, кремов, чизкейков, 
+выпечки и соусов. 
+Не продавать “европейскую премиальность”. Продавать стабильность кухни. 
+8. B2B-продажи 
+Работать через тесты, техкарты и расчёт себестоимости. Менеджер должен заходить 
+не с каталога, а с вопроса: какой сыр сейчас течёт, плохо взбивается, дорогой, 
+нестабильный или пропадает у поставщика. 
+9. Дистрибуция 
+Первый партнёр должен иметь refrigerated logistics. Без холодовой цепи запуск нельзя 
+масштабировать за пределы Бишкека. 
+
+10. Пилот 
+90 дней, Бишкек, 3 SKU, 25–40 B2B-клиентов, цель — повторная закупка выше 45%. 
+Розница только после подтверждения B2B-спроса. 
+ 
+</pre></details>
+</section>
+
+<section class='footer'>
+  Документ подготовлен на основе трёх загруженных исследований: Казахстан, Узбекистан, Кыргызстан. Внешние данные не добавлялись. HTML самодостаточный: стили и графики встроены в файл.
+</section>
+</main>
+</div>
+</body>
+</html>
